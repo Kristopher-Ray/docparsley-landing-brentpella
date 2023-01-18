@@ -1,112 +1,124 @@
 {{ partial "head.html" . }}
-
-<body id="home">
-
-{{ partial "header.html" . }}
-
-
-<section id="banner" role="banner">
-
-<div class="container">
-
-    <div class="row">
-
-        <div class="col animated fadeIn delay-1">
-
-            <h1>{{ .Title | safeHTML }}</h1>
-
-            <p>{{ .Description | safeHTML }}</p>
-
-            <a href="#inquire" class="button buttonOutlineWhite open-popup-link mt-4">Lightbox &rsaquo;</a>
-
+<body {{ if .Params.id }}id='{{ .Params.id }}' {{end}}>
+    {{ partial "header.html" . }}
+    <section id="banner" {{ if .Params.banner_image}} class="withImg" {{end}}>
+        <div id="bannerHead">
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col col-12 col-md-6">
+                        <div class="bannerTxtBx">
+                            <div id="bannerLogo">
+                                <a href='{{ "/" | relURL }}'><img src='{{ "img/logo.svg" | relURL }}'
+                                        alt="{{ .Site.Title }} Logo"></a>
+                            </div>
+                            {{if .Params.banner_title}}
+                            <h2>{{ .Params.banner_title | safeHTML }}</h2>
+                            {{end}}
+                            {{if .Params.banner_tagline}}
+                            <div class="bannerTagline">{{ .Params.banner_tagline | safeHTML }}</div>
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
-
-    </div>
-
-</div>
-
-    {{/*  <video playsinline autoplay muted loop poster='{{"video/bg.jpg" | relURL }}' data-src='{{"video/bg-small.mp4" | relURL }}' id="bgvid" class="lazy">
-        <source data-src='{{"video/bg-small.webm" | relURL }}' type="video/webm">
-        <source data-src='{{"video/bg-small.mp4" | relURL }}' type="video/mp4">
-    </video>  */}}
-
-    <div class="video-wrapper"><iframe src="https://player.vimeo.com/video/363037630?background=1&muted=1" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe><script src="https://player.vimeo.com/api/player.js"></script></div>
-
-</section>
-
-
-<main role="main">
-
-
-    <section id="signup">
-        <div class="container">
-    
-            {{ partial "signup.html" .}}
-    
+        <div id="bannerMid">
+            {{if .Params.banner_image}} <div class="banner-image aos-item" data-aos="fade-in"><img
+                    src="{{.Params.banner_image}}" /></div> {{end}}
+            <div class="container">
+                <div class="row justify-content-end">
+                    <div class="col col-12 col-md-6">
+                        <div class="bannerTxtBx">
+                            {{if .Params.banner_text}}
+                            <div class="bannerTxt">{{ .Params.banner_text | safeHTML }}</div>
+                            {{end}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="bannerCTA">
+            <div class="container">
+                {{if .Params.cta_image}}
+                <div class="ctaImg"><img src="{{.Params.cta_image}}"/></div>
+                {{end}}
+                {{if .Params.cta_button_left}} <div class="ctaBtn ctaBtnLeft">{{.Params.cta_button_left | safeHTML}}</div> {{end}}
+                {{if .Params.cta_button_right}} <div class="ctaBtn  ctaBtnRight">{{.Params.cta_button_right | safeHTML}}</div> {{end}}
+            </div>
         </div>
     </section>
-
     {{ partial "clientLogos.html" . }}
-
-    {{ range where (.Site.RegularPages.ByWeight) "Type" "home_sections" }}
+    <main role="main">
+        {{ range where (.Site.RegularPages.ByWeight) "Type" "home_sections" }}
         <section id="{{ .Params.id }}">
-
             {{ if .Params.image }}
             <div class="bg-image aos-item" data-aos="fade-in">
                 <img src='{{ .Params.image }}' class="lazy img-fluid" alt="{{ .Site.Title }} - {{ .Title }} Image">
             </div>
             {{end}}
-
-            <div class="container">
+            <div class='{{if .Params.fluid}} container-fluid {{else}} container {{end}}'>
                 <div class="row {{ .Params.position }}">
-                    <div class="col-12 {{ .Params.size }}">
+                    {{if .Params.column_image}}
+                    <div class="col col-image"><img src="{{.Params.column_image}}"/></div>
+                    {{end}}
+                    <div class="col col-12 {{ .Params.size }}">
                         {{ .Content }}
                     </div>
+                    {{if .Params.points}}
+                    <div class="col col-points">
+                        <ul class="quality-points">
+                            {{range .Params.points}}
+                                <li><div class="qualityBx">{{. | safeHTML}}</div></li>
+                            {{end}}
+                        </ul>
+                    </div>
+                    {{end}}
                 </div>
             </div>
         </section>
-    {{end}}
+        {{end}}
 
-    {{ partial "latest-news.html" . }}
+        {{ partial "latest-news.html" . }}
 
-    <section id="formSection">
+        <section id="formSection">
+            <div class="container">
+
+                {{ partial "form.html" .}}
+
+            </div>
+        </section>
+
+    </main>
+
+    <div id="inquire" class="mfp-hide">
+
         <div class="container">
-    
-            {{ partial "form.html" .}}
-    
-        </div>
-    </section>
 
-</main>
-
-<div id="inquire" class="mfp-hide">
-
-    <div class="container">
-
-        <div class="row">
-            <div class="col text-center">
-                {{ .Content }}
+            <div class="row">
+                <div class="col text-center">
+                    {{ .Content }}
+                </div>
             </div>
         </div>
+
     </div>
 
-</div>
+    {{ partial "footer.html" . }}
 
-{{ partial "footer.html" . }}
+    {{ partial "scripts.html" . }}
 
-{{ partial "scripts.html" . }}
-
-<script>
-    if (window.netlifyIdentity) {
-        window.netlifyIdentity.on("init", user => {
-            if (!user) {
-                window.netlifyIdentity.on("login", () => {
-                    document.location.href = "/admin/";
-                });
-            }
-        });
-    }
-</script>
+    <script>
+        if (window.netlifyIdentity) {
+            window.netlifyIdentity.on("init", user => {
+                if (!user) {
+                    window.netlifyIdentity.on("login", () => {
+                        document.location.href = "/admin/";
+                    });
+                }
+            });
+        }
+    </script>
 
 </body>
+
 </html>

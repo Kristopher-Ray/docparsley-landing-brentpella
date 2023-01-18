@@ -1,0 +1,22 @@
+<div id="products-row" class="row">
+    {{ range where (.Site.RegularPages.ByWeight) "Type" "products" }}
+    <div class="col col-12 col-md-4">
+        <div class="productsBx">
+            <div class="productImg">
+                {{if .Params.image}}<img src="{{.Params.image}}"/>{{end}}
+            </div>
+            <div class="productMeta">
+                <h3 class="productTitle">{{.Title}}</h3>
+                <div class="productPrice {{if .Params.sale_price}} withSalePrice {{end}}">
+                    <label>Special Price:</label>
+                    {{if .Params.price}} <span class="price">{{.Params.price}}</span> {{end}}
+                    {{if .Params.sale_price}} <span class="sale_price">{{.Params.sale_price}}</span> {{end}}
+                </div>
+                {{if .Params.outbound}}
+                    <div class="productBtn"><a class="button" href="{{.Params.outbound}}" target="_blank">SUBSCRIBE & SAVE</a></div>
+                {{end}}
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>

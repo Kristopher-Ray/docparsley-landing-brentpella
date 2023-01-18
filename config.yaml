@@ -1,6 +1,6 @@
 baseURL:
 languageCode: en-us
-title: A Naked Hugo Site Title
+title: Doc Parsley’s Sleep Remedy
 disableKinds:
   - taxonomy
   - taxonomyTerm

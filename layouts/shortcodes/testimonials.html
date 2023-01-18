@@ -1,0 +1,20 @@
+<div id="testimonials">
+    {{ range where (.Site.RegularPages.ByParam "weight") "Type" "testimonials" }}
+    <div>
+        <div class="testimonialBx">
+            <div class="testimonialImg">
+                {{if .Params.image}}
+                <img src="{{.Params.image}}" />
+                {{end}}
+            </div>
+            <div class="testimonialMeta">
+                <div class="testimonialStars">
+                    <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
+                </div>
+                <div class="testimonialTxt">{{.Content}}</div>
+                <div class="testimonialName">- {{.Title}}</div>
+            </div>
+        </div>
+    </div>
+    {{end}}
+</div>

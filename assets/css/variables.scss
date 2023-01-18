@@ -1,17 +1,18 @@
 /* Default Variables */
-$header-font:proxima-nova, sans-serif;
-$body-font: proxima-nova, sans-serif;
-$button-font: proxima-nova, sans-serif;
+$header-font:"proxima-nova-condensed",sans-serif;
+$body-font: "proxima-nova-condensed",sans-serif;
+$button-font: "proxima-nova-condensed",sans-serif;
 
 /* Form and Button Styling */
-$button-radius: 10px;
-$form-radius: 10px;
-$line-height-desktop: 60px;
-$line-height-mobile: 50px;
+$button-radius: 3px;
+$form-radius: 3px;
+$line-height-desktop: 49px;
+$line-height-mobile: 44px;
 
-$base-fontsize: 16px;
+$base-fontsize: 19px;
+$base-lineheight: 1.5em;
 
-$max-width: 1200px;
+$max-width: 1276px;
 $body-background: #fff;
 
 $transition: .25s;
@@ -22,3 +23,7 @@ $light-grey: #555;
 $btn-color: $default;
 $facebook-blue: #3b5998;
 $twitter-blue: #1DA1F2;
+$highlight: #D08010;
+$saffron: #F5B93E;
+$seagreen: #2397A9;
+$oxford: #062741;

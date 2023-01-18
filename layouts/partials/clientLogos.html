@@ -1,20 +1,18 @@
 <section id="clientLogos">
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12 text-center mb-3">
-                <h2>Some Really Nice Logos:</h2>
+            <div class="col-12 text-center">
+                <h3 class="font-italic logosTitle"><span class="text-seagreen">Trusted by</span> those who value good sleep:</h3>
             </div>
         </div>
-    
-            <div class="logos" id="carousel">
-                
-                {{ range where (.Site.RegularPages.ByWeight) "Type" "logos" }}
-                <div>
-                    <img src="{{ .Params.image }}" alt="{{ .Title }} Logo"/>
+        <div class="logos" id="carousel">
+            {{ range where (.Site.RegularPages.ByWeight) "Type" "logos" }}
+            <div>
+                <div class="imgBx">
+                    <img src="{{ .Params.image }}" alt="{{ .Title }} Logo" />
                 </div>
-                {{end}}
-                
             </div>
-    
-    </div>  
-</section> 
+            {{end}}
+        </div>
+    </div>
+</section>

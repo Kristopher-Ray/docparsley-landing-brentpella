@@ -101,3 +101,22 @@ $(document).ready(function(){
         }
     });
 });
+
+
+ // Tiny Slider
+ var slider = tns({
+    container: "#carousel",
+    gutter: 0,
+    items: 5,
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayButtonOutput: false,
+    controls: false,
+    nav: false,
+    speed: 2000,
+    autoplayTimeout: 0,
+    preventActionWhenRunning: true,
+    mouseDrag: true,
+    autoWidth: true,
+  });
