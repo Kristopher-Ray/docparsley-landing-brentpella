@@ -132,9 +132,20 @@ $(document).ready(function(){
     autoplayButtonOutput: false,
     controls: false,
     nav: false,
-    speed: 600,
+    speed: 400,
     autoplayTimeout: 8000,
     preventActionWhenRunning: true,
     mouseDrag: true,
     autoWidth: false,
+    responsive: {
+        "280": {
+          "items": 1,
+        },
+        "800": {
+            "items": 2,
+          },
+        "1200": {
+          "items": 3
+        }
+      },
   });

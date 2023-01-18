@@ -2,10 +2,11 @@
 <body {{ if .Params.id }}id='{{ .Params.id }}' {{end}}>
     {{ partial "header.html" . }}
     <section id="banner" {{ if .Params.banner_image}} class="withImg" {{end}}>
+
         <div id="bannerHead">
             <div class="container">
                 <div class="row justify-content-end">
-                    <div class="col col-12 col-md-6">
+                    <div class="col col-12 col-md-7 col-lg-6">
                         <div class="bannerTxtBx">
                             <div id="bannerLogo">
                                 <a href='{{ "/" | relURL }}'><img src='{{ "img/logo.svg" | relURL }}'
@@ -22,12 +23,12 @@
                 </div>
             </div>
         </div>
+        {{if .Params.banner_image}} <div class="banner-image aos-item" data-aos="fade-in"><img
+            src="{{.Params.banner_image}}" /></div> {{end}}
         <div id="bannerMid">
-            {{if .Params.banner_image}} <div class="banner-image aos-item" data-aos="fade-in"><img
-                    src="{{.Params.banner_image}}" /></div> {{end}}
             <div class="container">
                 <div class="row justify-content-end">
-                    <div class="col col-12 col-md-6">
+                    <div class="col col-12 col-md-7 col-lg-6">
                         <div class="bannerTxtBx">
                             {{if .Params.banner_text}}
                             <div class="bannerTxt">{{ .Params.banner_text | safeHTML }}</div>

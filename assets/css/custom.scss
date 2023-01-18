@@ -12,7 +12,7 @@ select {
   font-size: $base-fontsize;
   font-family: $body-font;
   font-weight: 400;
-  @media (max-width: 991px) {
+  @media (max-width: 1199px) {
     font-size: 16px;
   }
 }
@@ -58,7 +58,7 @@ b {
   }
 }
 .font22 {
-  font-size: 1.157em;
+  font-size: 1.157rem;
   line-height: 1.5em;
   p {
     font-size: 1em;
@@ -205,7 +205,7 @@ img {
       background: $saffron;
       color: #000;
       width: $line-height-desktop - 3;
-      height: $line-height-desktop;
+      height: 100%;
       position: absolute;
       top: 0;
       right: 0;
@@ -271,6 +271,7 @@ img {
   @media (max-width: 991px) {
     line-height: $line-height-mobile;
     height: $line-height-mobile;
+    font-size: 1rem;
     &.btn-outline-grey,
     &.btn-outline-black,
     &.btn-outline-white {
@@ -352,8 +353,20 @@ section {
   &.sml {
     font-size: 2.57rem;
   }
+  @media (max-width: 1199px) {
+    font-size: 2.5rem;
+    &.sml{
+      font-size: 2.2rem;
+    }
+  }
   @media (max-width: 991px) {
-    font-size: 1.5rem;
+    font-size: 2.125rem;
+    &.sml{
+      font-size: 1.85rem;
+    }
+  }
+  @media (max-width: 767px) {
+    font-size: 1.85rem;
   }
 }
 .sectionTagline {
@@ -367,6 +380,9 @@ section {
   font-weight: 700;
   font-size: 2.42rem;
   line-height: 1.1em;
+  @media (max-width: 767px) {
+    font-size: 2rem;
+  }
 }
 .sleepStoryTitle {
   font-weight: 700;
@@ -627,8 +643,14 @@ header {
       display: inline-block;
       margin-left: 0.4em;
     }
-    @media (max-width: 991px) {
+    @media (max-width: 1199px) {
       font-size: 3.15rem;
+    }
+    @media (max-width: 991px) {
+      font-size: 2.6rem;
+    }
+    @media (max-width: 575px) {
+      font-size: 1.87rem;
     }
   }
   .bannerTagline {
@@ -637,6 +659,15 @@ header {
     line-height: 1.1875em;
     color: #ffffff;
     padding-top: 0.45em;
+    @media (max-width: 1199px) {
+      font-size: 1.45rem;
+    }
+    @media (max-width: 767px) {
+      font-size: 1.25rem;
+    }
+    @media (max-width: 575px) {
+      font-size: 1.15rem;
+    }
   }
   .bannerTxt {
     font-weight: 400;
@@ -646,6 +677,9 @@ header {
     p {
       font-size: 1em;
       line-height: 1.5em;
+    }
+    @media (max-width: 575px) {
+      font-size: 1.05rem;
     }
   }
 }
@@ -875,6 +909,9 @@ footer {
   font-weight: 400;
   font-size: 1.263rem;
   line-height: 1.541em;
+  @media (max-width: 991px) {
+    font-size: 1.05rem;
+  }
 }
 .quoteName {
   font-weight: 700;
@@ -908,6 +945,9 @@ ul.quality-points {
   margin: 0;
   padding: 0;
   list-style: none;
+  @media (max-width: 767px) {
+    padding-top: 2rem;
+  }
   li {
     position: relative;
     font-weight: 700;
@@ -915,6 +955,9 @@ ul.quality-points {
     line-height: 1em;
     color: #00132d;
     padding-bottom: 0.55em;
+    @media (max-width: 991px) {
+      font-size: 1.05rem;
+    }
     .qualityBx {
       position: relative;
       background: #eaf7ff;
@@ -934,12 +977,21 @@ ul.quality-points {
   .col {
     padding-top: 1.4rem;
   }
+  @media (max-width: 991px) {
+    margin: 0 -10px;
+    .col{
+      padding-left: 10px; padding-right: 10px;
+    }
+  }
 }
 .productsBx {
   position: relative;
   padding: 1.68rem;
   background: #eaf7ff;
   border-radius: 16px;
+  @media (max-width: 991px) {
+    padding: 20px;
+  }
   .productImg {
     height: 260px;
     display: flex;
@@ -957,6 +1009,12 @@ ul.quality-points {
     text-transform: uppercase;
     color: #000000;
     padding-bottom: 0.3em;
+    @media (max-width: 1199px) {
+      font-size: 1.5rem;
+    }
+    @media (max-width: 991px) {
+      font-size: 1.275rem;
+    }
   }
   .productPrice {
     font-weight: 700;
@@ -1004,6 +1062,12 @@ ul.quality-points {
     .bannerTxtBx {
       max-width: 485px;
       margin-left: auto;
+      @media (max-width: 767px) {
+        max-width: 100%;
+        h2{
+          max-width: 340px;
+        }
+      }
     }
     #bannerHead {
       position: relative;
@@ -1021,9 +1085,20 @@ ul.quality-points {
     .banner-image {
       position: absolute;
       left: 0;
-      bottom: 0;
+      bottom: 90px;
       width: 55.5%;
-      height: 46.5vw;
+      height: 84.5%; z-index: 9;
+      @media (max-width: 1199px) {
+        width: 50%;
+      }
+      @media (max-width: 767px) {
+        width: 100%; bottom: inherit; position: relative; height: 55vw; max-height: 350px;
+      background: #00132d;
+      &:before{
+        content: ''; width: 100%; height: 100%; position: absolute; left: 0; top: 0;
+        background: linear-gradient(360deg, #00132d 0%, rgba(255, 255, 255, 0) 35%);
+      }
+      }
       img {
         object-fit: cover;
         object-position: top right;
@@ -1034,27 +1109,68 @@ ul.quality-points {
     #bannerCTA {
       padding: 1.1rem 0;
       position: relative;
-      background: #fff;
+      background: #fff; height: 91px; z-index: 10;
+      @media (max-width: 991px) {
+        height: auto;
+      }
+      @media (max-width: 575px) {
+        display: block;
+      }
       .container {
         display: flex;
         justify-content: center;
+        @media (max-width: 1199px) {
+          justify-content: flex-start;
+        }
+        @media (max-width: 767px) {
+          display: flex;
+          flex-direction: column;
+          flex-wrap: wrap;
+          height: 227px;
+    width: 100%; justify-content: center;
+        }
+        @media (max-width: 575px) {
+          height: auto;
+        }
       }
       .ctaBtn {
         margin: 0 2.4rem;
       }
       .ctaBtnLeft {
-        order: 1;
+        order: 1; margin-left: 0;
+        @media (max-width: 991px) {
+          margin-right: 2rem;
+        }
+        @media (max-width: 767px) {
+          order: 2; margin: 0 0 1rem 0;
+        }
       }
       .ctaBtnRight {
-        order: 3;
+        order: 3; margin-right: 0;
+        @media (max-width: 991px) {
+          margin-left: 0;
+        }
       }
       .ctaImg {
         order: 2;
         position: relative;
         width: 174px;
+        @media (max-width: 991px) {
+          order: 1; width: 145px; margin-right: 2rem;
+        }
+        @media (max-width: 767px) {
+          order: 1;
+          flex: 0 0 100%; margin: 0; width: 120px;
+        }
+        @media (max-width: 575px) {
+          margin-bottom: 1rem;
+        }
         img {
           position: absolute;
           bottom: -1rem;
+          @media (max-width: 767px) {
+            position: relative; bottom: 0;
+          }
         }
       }
     }
@@ -1065,27 +1181,36 @@ ul.quality-points {
 
   #sleep-story {
     padding: 0;
+    background: linear-gradient(171.63deg, #062741 -29.51%, #2397a9 151.77%);
     & > .container-fluid {
       padding: 0;
     }
     .bg-image {
       width: 46.5%;
       left: inherit;
-      right: 10px;
+      right: 0px;
       z-index: 9;
       &:before {
         display: none;
       }
       img {
-        object-position: center top;
+        object-position: left top;
+      }
+      @media (max-width: 767px) {
+        width: 100%; height: 55vw; max-height: 350px; margin: 0 auto;
+        &:before{
+          background: linear-gradient(360deg, #062741 0%, rgba(255, 255, 255, 0) 35%); display: block;
+        }
+        img{
+          object-position: center top; width: 70%; margin: 0 auto; display: block;
+        }
       }
     }
     #sleep-story-top {
       padding: 1.75rem 0;
       position: relative;
       color: #fff;
-      background: linear-gradient(171.63deg, #062741 -29.51%, #2397a9 151.77%),
-        #d9d9d9;
+      background: linear-gradient(171.63deg, #062741 -29.51%, #2397a9 151.77%)
     }
     #sleep-story-bot {
       padding: 1.55rem 0 1.7rem;
@@ -1112,7 +1237,13 @@ ul.quality-points {
       height: 258px;
       opacity: 0.2;
       left: 47.6%;
-      top: 11%;
+      top: 11%; background-size: contain; background-position: center;
+      @media (max-width: 575px) {
+        width: 120px; height: 120px; left: 10px; top: 10px;
+      }
+    }
+    @media (max-width: 767px) {
+      padding: 3rem 0;
     }
     .col-image {
       text-align: right;
@@ -1139,11 +1270,21 @@ ul.quality-points {
       img {
         object-position: center top;
       }
+      @media (max-width: 767px) {
+        height: 55vw; max-height: 350px;
+        &:before{
+          background: linear-gradient(360deg, #00132d 0%, rgba(255, 255, 255, 0) 35%);
+          display: block;
+        }
+      }
     }
     .sectionTxtBx {
       max-width: 545px;
       margin-left: auto;
       padding-top: 3.6rem;
+      @media (max-width: 767px) {
+        padding-top: .5rem;
+      }
     }
   }
 
@@ -1157,6 +1298,10 @@ ul.quality-points {
     color: #fff;
     padding: 3.85rem 0 1.87rem;
     position: relative;
+    background: #00132D;
+    @media (max-width: 767px) {
+      padding-top: 0;
+    }
     &:before {
       content: "";
       z-index: 9;
@@ -1168,6 +1313,12 @@ ul.quality-points {
       background-size: contain;
       left: 50%;
       transform: translateX(-44%);
+      @media (max-width: 991px) {
+        width: 150px; height: 150px; left: 60%;
+      }
+      @media (max-width: 575px) {
+        width: 100px; height: 100px; left: 10px; transform: translate(0); top: 10px;
+      }
     }
     .bg-image {
       width: 100%;
@@ -1177,6 +1328,17 @@ ul.quality-points {
           #00132d 6.87%,
           rgba(0, 0, 0, 0) 59.51%
         );
+      }
+      @media (max-width: 767px) {
+img{
+  object-position: right top;
+}
+        &:before{
+          background: linear-gradient(360deg, #00132d 0%, rgba(255, 255, 255, 0) 35%);
+        }
+      }
+      @media (max-width: 575px) {
+        height: 55vw;
       }
     }
   }
@@ -1216,6 +1378,20 @@ ul.quality-points {
   color: #fff;
   padding: 4.25rem 0 4.5rem;
   background: #062741;
+  @media (max-width: 767px) {
+    .text-right{
+      text-align: left !important;
+      img{
+        width: 90px; margin-bottom: 1rem;
+      }
+    }
+    .font24{
+      font-size: 1.1rem;
+      p{
+        font-size: 1.1rem; line-height: 1.5em;
+      }
+    }
+  }
   p {
     margin-bottom: 0.75em;
   }
@@ -1225,12 +1401,12 @@ ul.quality-points {
   background: #fff;
   position: relative;
   .container-fluid {
-    padding: 0;
+    padding: 0 20px;
   }
 }
 #testimonials {
   padding-top: 1.5rem;
-  position: relative;
+  position: relative; display: flex;
 }
 
 .testimonialBx {
@@ -1242,13 +1418,19 @@ ul.quality-points {
   text-align: left;
   border-radius: 16px;
   align-items: center;
-  min-height: 240px;
+  min-height: 240px; height: 100%;
+  @media (max-width: 767px) {
+    max-width: 100%;
+  } 
   .testimonialImg {
     width: 92px;
     border-radius: 100%;
     overflow: hidden;
     height: 92px;
     background: #ccc;
+    @media (max-width: 575px) {
+      width: 70px; height: 70px;
+    }
     img {
       object-fit: cover;
       object-position: center center;
@@ -1260,6 +1442,9 @@ ul.quality-points {
     width: 50%;
     flex-grow: 1;
     padding-left: 1.8rem;
+    @media (max-width: 575px) {
+      padding-left: 1rem;
+    }
     .testimonialStars {
       font-size: 1.21rem;
       line-height: 1em;
@@ -1289,6 +1474,9 @@ ul.quality-points {
       font-size: 1.21rem;
       line-height: 1.1rem;
       color: #000000;
+      @media (max-width: 575px) {
+        font-size: 1.05rem;
+      }
     }
   }
 }
