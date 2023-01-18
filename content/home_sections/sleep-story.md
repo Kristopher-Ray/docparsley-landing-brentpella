@@ -15,7 +15,7 @@ fluid: true
 
 ### Why Brent cares about your sleep {.sleepStoryTitle .font-italic}
 
-<div class="brentQuote">“Look, I'm not a "genius" or "health expert" or "extremely attractive man who knows how to make the freshest handmade pasta bolognese ever created" - I'm just a dude who loves waking up each morning, ready to KNEAD my day like a fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else works? <strong class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</strong></div>
+<div class="brentQuote">“Look, I'm not a "genius" or "health expert" or "extremely attractive man who knows how to make the freshest handmade pasta bolognese ever created" - I'm just a dude who loves waking up each morning, ready to KNEAD my day like a fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else works? <a href="https://store.docparsley.com/products/sleep-remedy-capsules" target="_blank" class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a></div>
 <div class="quoteName">- Brent Pella</div>
 </div>
 </div>
@@ -35,7 +35,7 @@ fluid: true
 <li>The PERFECT morning routine begins with the BEST nighttime routine.</li>
 <li>I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy</li>
 </ul>
-<a href="#sleep-remedy" class="button btn-saffron">Try Sleep Remedy Now</a>
+<a href="https://store.docparsley.com/products/sleep-remedy-capsules" target="_blank" class="button btn-saffron">Try Sleep Remedy Now</a>
 </div>
 </div>
 </div>

@@ -659,6 +659,11 @@ header {
     line-height: 1.1875em;
     color: #ffffff;
     padding-top: 0.45em;
+
+    a {
+      color:#fff;
+      font-weight:700;
+    }
     @media (max-width: 1199px) {
       font-size: 1.45rem;
     }
@@ -911,6 +916,11 @@ footer {
   line-height: 1.541em;
   @media (max-width: 991px) {
     font-size: 1.05rem;
+  }
+
+  a {
+    color: #fff;
+    font-weight:700;
   }
 }
 .quoteName {
