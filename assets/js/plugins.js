@@ -23,31 +23,31 @@ var tns=function(){Object.keys||(Object.keys=function(t){var e=[];for(var n in t
 //# sourceMappingURL=../sourcemaps/tiny-slider.js.map
 
 
-// // Exit intent
-// function addEvent(obj, evt, fn) {
-//     if (obj.addEventListener) {
-//         obj.addEventListener(evt, fn, false);
-//     } else if (obj.attachEvent) {
-//         obj.attachEvent("on" + evt, fn);
-//     }
-// }
-//
-// // Exit intent trigger
-// addEvent(document, 'mouseout', function(evt) {
-//     if (evt.toElement === null && evt.relatedTarget === null && !localStorage.getItem('exitintent_show')) {
-//         $.magnificPopup.open({
-//             items: {
-//                 src: '#exit' //ID of inline element
-//             },
-//             type: 'inline',
-//             removalDelay: 500, //Delaying the removal in order to fit in the animation of the popup
-//             mainClass: 'mfp-fade mfp-fade-side', //The actual animation
-//         });
-//
-//         // Cookie Lightbox Once
-//         localStorage.setItem('exitintent_show', 'true'); // Set the flag in localStorage
-//     }
-// });
+// Exit intent
+function addEvent(obj, evt, fn) {
+    if (obj.addEventListener) {
+        obj.addEventListener(evt, fn, false);
+    } else if (obj.attachEvent) {
+        obj.attachEvent("on" + evt, fn);
+    }
+}
+
+// Exit intent trigger
+addEvent(document, 'mouseout', function(evt) {
+    if (evt.toElement === null && evt.relatedTarget === null && !localStorage.getItem('exitintent_show')) {
+        $.magnificPopup.open({
+            items: {
+                src: '#exit' //ID of inline element
+            },
+            type: 'inline',
+            removalDelay: 500, //Delaying the removal in order to fit in the animation of the popup
+            mainClass: 'mfp-fade mfp-fade-side', //The actual animation
+        });
+
+        // Cookie Lightbox Once
+        localStorage.setItem('exitintent_show', 'true'); // Set the flag in localStorage
+    }
+});
 
 // Start Inline JS
 
