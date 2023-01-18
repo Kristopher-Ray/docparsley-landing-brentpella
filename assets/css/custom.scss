@@ -33,6 +33,9 @@ div[data-space] {
 .font-italic {
   font-style: italic;
 }
+.text-right {
+  text-align: right;
+}
 .text-highlight {
   color: $highlight;
 }
@@ -49,16 +52,26 @@ b {
 .font20 {
   font-size: 1.052rem;
   line-height: 1.5em;
-  p{
-    font-size: 1em; line-height: 1.5em;
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
   }
 }
-.font22{
+.font22 {
   font-size: 1.157em;
-line-height: 1.5em;
-p{
-  font-size: 1em; line-height: 1.5em;
+  line-height: 1.5em;
+  p {
+    font-size: 1em;
+    line-height: 1.5em;
+  }
 }
+.font24 {
+  font-size: 1.26rem;
+  line-height: 1.5em;
+  p {
+    font-size: 1.26rem;
+    line-height: 1.5em;
+  }
 }
 blockquote {
   padding-left: 1.1rem;
@@ -219,8 +232,10 @@ img {
     background: $saffron;
     color: #000;
   }
-  &.btn-blank{
-    background: none; color: $saffron; padding: 0;
+  &.btn-blank {
+    background: none;
+    color: $saffron;
+    padding: 0;
   }
   &.inactive {
     background: linear-gradient(0deg, #0a0e32, #0a0e32),
@@ -333,19 +348,19 @@ section {
   font-weight: 700;
   font-size: 2.89rem;
   line-height: 1.03em;
-  padding-bottom: .22em;
-  &.sml{
+  padding-bottom: 0.22em;
+  &.sml {
     font-size: 2.57rem;
   }
   @media (max-width: 991px) {
     font-size: 1.5rem;
   }
 }
-.sectionTagline{
+.sectionTagline {
   font-weight: 500;
-font-size: 1.473rem;
-line-height: 1.4em;
-color: #5C5C5C; 
+  font-size: 1.473rem;
+  line-height: 1.4em;
+  color: #5c5c5c;
 }
 .logosTitle {
   color: #000;
@@ -820,26 +835,18 @@ form {
 }
 
 footer {
-  padding: 3rem 0 10rem;
-
-  #footerSocial {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-
-    li {
-      display: inline-block;
-      margin: 5px;
-
-      &.social {
-        font-size: 1.65em;
-        vertical-align: middle;
-        margin: 2px;
-      }
-
-      a {
-        padding: 5px;
-      }
+  padding: 3rem 0 6rem;
+  text-align: center;
+  background: #fff;
+  #copyright {
+    padding-top: 1.4rem;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 1.5em;
+    text-align: center;
+    color: #474747;
+    a {
+      color: #027c8f;
     }
   }
 }
@@ -897,90 +904,95 @@ ul.checklist {
     }
   }
 }
-ul.quality-points{
-  margin: 0; padding: 0; list-style: none;
-  li{
+ul.quality-points {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  li {
     position: relative;
     font-weight: 700;
-font-size: 1.315rem;
-line-height: 1em;
-color: #00132D; 
-padding-bottom: .55em;
-    .qualityBx{
-position: relative;
-      background: #EAF7FF; 
-border-radius: 6px; padding: 18px 18px 18px 85px; min-height: 70px; display: flex; align-items: center;
-img{
-  position: absolute; left: 20px;
-}
+    font-size: 1.315rem;
+    line-height: 1em;
+    color: #00132d;
+    padding-bottom: 0.55em;
+    .qualityBx {
+      position: relative;
+      background: #eaf7ff;
+      border-radius: 6px;
+      padding: 18px 18px 18px 85px;
+      min-height: 70px;
+      display: flex;
+      align-items: center;
+      img {
+        position: absolute;
+        left: 20px;
+      }
     }
   }
 }
-#products-row{
-  .col{
+#products-row {
+  .col {
     padding-top: 1.4rem;
   }
 }
-.productsBx{
+.productsBx {
   position: relative;
   padding: 1.68rem;
-  background: #EAF7FF;
-border-radius: 16px;
-.productImg {
-	height: 260px;
-	display: flex;
-	align-items: flex-end;
-	justify-content: center;
-}
-.productMeta{
-  padding-top: 1.8rem;
-}
-.productTitle{
-  font-weight: 700;
-font-size: 1.736rem;
-line-height: 1em;
-text-align: center;
-text-transform: uppercase;
-color: #000000; 
-padding-bottom: .3em;
-}
-.productPrice{
-  font-weight: 700;
-font-size: 1.05rem;
-line-height: 1.3em;
-text-align: center;
-text-transform: uppercase;
-color: #000000; 
-label{
-  display: block;
-}
-span{
-  font-size: 1.2em; line-height: 1.3em; display: inline-block;
-  &.price{
-    color: #828282;
+  background: #eaf7ff;
+  border-radius: 16px;
+  .productImg {
+    height: 260px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
   }
-  &.sale_price{
-    color: #87192D;
+  .productMeta {
+    padding-top: 1.8rem;
   }
-}
-&.withSalePrice{
-  span{
-    &.price{
-      text-decoration: line-through;
+  .productTitle {
+    font-weight: 700;
+    font-size: 1.736rem;
+    line-height: 1em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    padding-bottom: 0.3em;
+  }
+  .productPrice {
+    font-weight: 700;
+    font-size: 1.05rem;
+    line-height: 1.3em;
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
+    label {
+      display: block;
+    }
+    span {
+      font-size: 1.2em;
+      line-height: 1.3em;
+      display: inline-block;
+      &.price {
+        color: #828282;
+      }
+      &.sale_price {
+        color: #87192d;
+      }
+    }
+    &.withSalePrice {
+      span {
+        &.price {
+          text-decoration: line-through;
+        }
+      }
     }
   }
-}
-}
-.productBtn {
-	padding-top: .9rem;
-}
+  .productBtn {
+    padding-top: 0.9rem;
+  }
 }
 #home {
-  background-image: url(/img/Comp1.png);
-  background-position: center top;
-  background-repeat: no-repeat;
-  max-width: 1440px;
-  margin: 0 auto;
+  position: relative;
   #banner {
     padding: 0;
     .container {
@@ -1083,41 +1095,48 @@ span{
     }
   }
 
-  #sleep-remedy{
-    padding: 3.6rem 0 0.5rem;  background: #fff;
+  #sleep-remedy {
+    padding: 3.6rem 0 0.5rem;
+    background: #fff;
   }
 
   #lets-admit {
-    padding: 0.6rem 0 0; position: relative; background: #fff;
+    padding: 0.6rem 0 0;
+    position: relative;
+    background: #fff;
     &:before {
-      content: '';
+      content: "";
       background-image: url(/img/logo_leaf.png);
       position: absolute;
       width: 258px;
       height: 258px;
-      opacity: .2;
+      opacity: 0.2;
       left: 47.6%;
       top: 11%;
     }
-    .col-image{
+    .col-image {
       text-align: right;
     }
-    .sectionTitle{
-      padding-top: 2.1rem; max-width: 500px;
+    .sectionTitle {
+      padding-top: 2.1rem;
+      max-width: 500px;
     }
   }
 
   #sleep-formula {
     color: #fff;
     padding: 3.1rem 0 3.05rem;
-    background: #00132D;
-    .bg-image{
+    background: #00132d;
+    .bg-image {
       width: 100%;
-      left: 0; bottom: 0; height: 69%; top: inherit;
-      &:before{
-display: none;
+      left: 0;
+      bottom: 0;
+      height: 69%;
+      top: inherit;
+      &:before {
+        display: none;
       }
-      img{
+      img {
         object-position: center top;
       }
     }
@@ -1130,14 +1149,16 @@ display: none;
 
   #quality-product {
     color: #000;
-    padding: 2.85rem 0 2.3rem; background: #fff;
+    padding: 2.85rem 0 2.3rem;
+    background: #fff;
   }
 
-  #guarantee{
-    color: #fff; 
-    padding: 3.85rem 0 1.87rem; position: relative;
+  #guarantee {
+    color: #fff;
+    padding: 3.85rem 0 1.87rem;
+    position: relative;
     &:before {
-      content: '';
+      content: "";
       z-index: 9;
       position: absolute;
       width: 202px;
@@ -1148,10 +1169,14 @@ display: none;
       left: 50%;
       transform: translateX(-44%);
     }
-    .bg-image{
+    .bg-image {
       width: 100%;
-      &:before{
-        background: linear-gradient(90deg, #00132D 6.87%, rgba(0, 0, 0, 0) 59.51%);
+      &:before {
+        background: linear-gradient(
+          90deg,
+          #00132d 6.87%,
+          rgba(0, 0, 0, 0) 59.51%
+        );
       }
     }
   }
@@ -1187,66 +1212,85 @@ display: none;
     }
   }
 }
-
+#hassle-free {
+  color: #fff;
+  padding: 4.25rem 0 4.5rem;
+  background: #062741;
+  p {
+    margin-bottom: 0.75em;
+  }
+}
 #client-testimonials {
-	padding: 1.1rem 0 3rem; background: #fff;
-	position: relative;
-  .container-fluid{
+  padding: 1.1rem 0 3rem;
+  background: #fff;
+  position: relative;
+  .container-fluid {
     padding: 0;
   }
 }
 #testimonials {
-	padding-top: 1.5rem;
-	position: relative;
+  padding-top: 1.5rem;
+  position: relative;
 }
 
 .testimonialBx {
-	padding: 1.35rem;
-	position: relative;
-  display: flex; max-width: 492px;
-  background: #EAF7FF;  text-align: left;
-border-radius: 16px; align-items: center; min-height: 240px;
-.testimonialImg{
-  width: 92px; border-radius: 100%; overflow: hidden;
-  height: 92px; background: #ccc;
-  img {
-    object-fit: cover;
-    object-position: center center;
-    width:100%;
-    height:100%;
+  padding: 1.35rem;
+  position: relative;
+  display: flex;
+  max-width: 492px;
+  background: #eaf7ff;
+  text-align: left;
+  border-radius: 16px;
+  align-items: center;
+  min-height: 240px;
+  .testimonialImg {
+    width: 92px;
+    border-radius: 100%;
+    overflow: hidden;
+    height: 92px;
+    background: #ccc;
+    img {
+      object-fit: cover;
+      object-position: center center;
+      width: 100%;
+      height: 100%;
+    }
   }
-}
-.testimonialMeta{
-  width: 50%; flex-grow: 1; padding-left: 1.8rem;
-  .testimonialStars{
-    font-size: 1.21rem;
-line-height: 1em;
-color: #2397A9; 
-display: inline-block; vertical-align: top;
-span{
-  display: inline-block; vertical-align: top;
-}
+  .testimonialMeta {
+    width: 50%;
+    flex-grow: 1;
+    padding-left: 1.8rem;
+    .testimonialStars {
+      font-size: 1.21rem;
+      line-height: 1em;
+      color: #2397a9;
+      display: inline-block;
+      vertical-align: top;
+      span {
+        display: inline-block;
+        vertical-align: top;
+      }
+    }
+    .testimonialTxt {
+      font-style: italic;
+      font-weight: 500;
+      font-size: 1rem;
+      line-height: 1.21em;
+      color: #474747;
+      padding-top: 0.45em;
+      p {
+        font-size: 1rem;
+        line-height: 1.21em;
+        margin-bottom: 0.8em;
+      }
+    }
+    .testimonialName {
+      font-weight: 700;
+      font-size: 1.21rem;
+      line-height: 1.1rem;
+      color: #000000;
+    }
   }
-  .testimonialTxt{
-    font-style: italic;
-font-weight: 500;
-font-size: 1rem;
-line-height: 1.21em;
-color: #474747; 
-padding-top: .45em;
-p{
-  font-size: 1rem;
-line-height: 1.21em;
-margin-bottom: .8em;
-}
-  }
-  .testimonialName{
-    font-weight: 700;
-font-size: 1.21rem;
-line-height: 1.1rem;
-color: #000000; 
-  }
-}
 }
 
 .list-default {
@@ -1343,5 +1387,3 @@ color: #000000;
     }
   }
 }
-
-
