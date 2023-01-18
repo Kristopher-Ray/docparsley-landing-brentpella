@@ -941,7 +941,7 @@ font-size: 1.736rem;
 line-height: 1em;
 text-align: center;
 text-transform: uppercase;
-color: #000000; color: red;
+color: #000000; 
 padding-bottom: .3em;
 }
 .productPrice{
@@ -950,7 +950,7 @@ font-size: 1.05rem;
 line-height: 1.3em;
 text-align: center;
 text-transform: uppercase;
-color: #000000; color: red;
+color: #000000; 
 label{
   display: block;
 }
@@ -1134,7 +1134,7 @@ display: none;
   }
 
   #guarantee{
-    color: #fff; color: red;
+    color: #fff; 
     padding: 3.85rem 0 1.87rem; position: relative;
     &:before {
       content: '';
@@ -1189,7 +1189,7 @@ display: none;
 }
 
 #client-testimonials {
-	padding: 1.1rem 0 1.87rem;
+	padding: 1.1rem 0 3rem; background: #fff;
 	position: relative;
   .container-fluid{
     padding: 0;
@@ -1198,15 +1198,14 @@ display: none;
 #testimonials {
 	padding-top: 1.5rem;
 	position: relative;
-	padding-left: 5.4rem;
 }
 
 .testimonialBx {
 	padding: 1.35rem;
 	position: relative;
   display: flex; max-width: 492px;
-  background: #EAF7FF; background: rgba(0, 0, 0, 0.15); text-align: left;
-border-radius: 16px; align-items: center;
+  background: #EAF7FF;  text-align: left;
+border-radius: 16px; align-items: center; min-height: 240px;
 .testimonialImg{
   width: 92px; border-radius: 100%; overflow: hidden;
   height: 92px; background: #ccc;
@@ -1222,7 +1221,7 @@ border-radius: 16px; align-items: center;
   .testimonialStars{
     font-size: 1.21rem;
 line-height: 1em;
-color: #2397A9; color: red;
+color: #2397A9; 
 display: inline-block; vertical-align: top;
 span{
   display: inline-block; vertical-align: top;
@@ -1233,7 +1232,7 @@ span{
 font-weight: 500;
 font-size: 1rem;
 line-height: 1.21em;
-color: #474747; color: red;
+color: #474747; 
 padding-top: .45em;
 p{
   font-size: 1rem;
@@ -1245,7 +1244,7 @@ margin-bottom: .8em;
     font-weight: 700;
 font-size: 1.21rem;
 line-height: 1.1rem;
-color: #000000; color: red;
+color: #000000; 
   }
 }
 }

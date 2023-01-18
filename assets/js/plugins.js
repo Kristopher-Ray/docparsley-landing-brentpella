@@ -103,7 +103,7 @@ $(document).ready(function(){
 });
 
 
- // Tiny Slider
+ // Logos Slider
  var slider = tns({
     container: "#carousel",
     gutter: 0,
@@ -119,4 +119,22 @@ $(document).ready(function(){
     preventActionWhenRunning: true,
     mouseDrag: true,
     autoWidth: true,
+  });
+
+   // Testimonials Slider
+ var slider = tns({
+    container: "#testimonials",
+    gutter: 35,
+    items: 3,
+    loop: true,
+    autoplay: true,
+    autoplayHoverPause: true,
+    autoplayButtonOutput: false,
+    controls: false,
+    nav: false,
+    speed: 600,
+    autoplayTimeout: 8000,
+    preventActionWhenRunning: true,
+    mouseDrag: true,
+    autoWidth: false,
   });
