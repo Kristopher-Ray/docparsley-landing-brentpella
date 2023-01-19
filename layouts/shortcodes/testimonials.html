@@ -2,11 +2,13 @@
     {{ range where (.Site.RegularPages.ByParam "weight") "Type" "testimonials" }}
     <div>
         <div class="testimonialBx">
+            {{if .Params.image}}
             <div class="testimonialImg">
-                {{if .Params.image}}
+                
                 <img src="{{.Params.image}}" />
-                {{end}}
+               
             </div>
+            {{end}}
             <div class="testimonialMeta">
                 <div class="testimonialStars">
                     <span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span><span><i class="fa-solid fa-star"></i></span>
