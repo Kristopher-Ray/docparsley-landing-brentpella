@@ -32,21 +32,14 @@ function addEvent(obj, evt, fn) {
     }
 }
 
-// Exit intent trigger
 addEvent(document, 'mouseout', function(evt) {
-    if (evt.toElement === null && evt.relatedTarget === null && !localStorage.getItem('exitintent_show')) {
-        $.magnificPopup.open({
-            items: {
-                src: '#exit' //ID of inline element
-            },
-            type: 'inline',
-            removalDelay: 500, //Delaying the removal in order to fit in the animation of the popup
-            mainClass: 'mfp-fade mfp-fade-side', //The actual animation
-        });
+    if (evt.toElement == null && evt.relatedTarget == null) {
+        $('#exit_lightbox').slideDown();
+    };
+});
 
-        // Cookie Lightbox Once
-        localStorage.setItem('exitintent_show', 'true'); // Set the flag in localStorage
-    }
+$('a.close').click(function() {
+    $('#exit_lightbox').slideUp();
 });
 
 // Start Inline JS

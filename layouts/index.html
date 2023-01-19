@@ -1,4 +1,5 @@
 {{ partial "head.html" . }}
+
 <body {{ if .Params.id }}id='{{ .Params.id }}' {{end}}>
     {{ partial "header.html" . }}
     <section id="banner" {{ if .Params.banner_image}} class="withImg" {{end}}>
@@ -23,8 +24,7 @@
                 </div>
             </div>
         </div>
-        {{if .Params.banner_image}} <div class="banner-image"><img
-            src="{{.Params.banner_image}}" /></div> {{end}}
+        {{if .Params.banner_image}} <div class="banner-image"><img src="{{.Params.banner_image}}" /></div> {{end}}
         <div id="bannerMid">
             <div class="container">
                 <div class="row justify-content-end">
@@ -41,10 +41,12 @@
         <div id="bannerCTA">
             <div class="container">
                 {{if .Params.cta_image}}
-                <div class="ctaImg"><img src="{{.Params.cta_image}}"/></div>
+                <div class="ctaImg"><img src="{{.Params.cta_image}}" /></div>
                 {{end}}
-                {{if .Params.cta_button_left}} <div class="ctaBtn ctaBtnLeft">{{.Params.cta_button_left | safeHTML}}</div> {{end}}
-                {{if .Params.cta_button_right}} <div class="ctaBtn  ctaBtnRight">{{.Params.cta_button_right | safeHTML}}</div> {{end}}
+                {{if .Params.cta_button_left}} <div class="ctaBtn ctaBtnLeft">{{.Params.cta_button_left | safeHTML}}
+                </div> {{end}}
+                {{if .Params.cta_button_right}} <div class="ctaBtn  ctaBtnRight">{{.Params.cta_button_right | safeHTML}}
+                </div> {{end}}
             </div>
         </div>
     </section>
@@ -61,7 +63,7 @@
             <div class='{{if .Params.fluid}} container-fluid {{else}} container {{end}}'>
                 <div class="row {{ .Params.position }}">
                     {{if .Params.column_image}}
-                    <div class="col col-image"><img src="{{.Params.column_image}}"/></div>
+                    <div class="col col-image"><img src="{{.Params.column_image}}" /></div>
                     {{end}}
                     <div class="col col-12 {{ .Params.size }}">
                         {{ .Content }}
@@ -70,7 +72,9 @@
                     <div class="col col-points">
                         <ul class="quality-points">
                             {{range .Params.points}}
-                                <li><div class="qualityBx">{{. | safeHTML}}</div></li>
+                            <li>
+                                <div class="qualityBx">{{. | safeHTML}}</div>
+                            </li>
                             {{end}}
                         </ul>
                     </div>
@@ -82,30 +86,36 @@
 
 
     </main>
-
+<div id="exit_lightbox">
     <div id="exit">
-        
-        <h2><b>Wait!</b> Get Stress-free Sleep, <em>FREE</em></h2>
+        <a href="javascript:void(0)" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
+        <div id="exitTop">
+            <div class="exitImg">
+                <img src='{{ "img/img_exit_worksheet.jpg" | relURL }}' alt="Stress Free Sleep Worksheet">
+            </div>
+            <div class="exitCTA">
+                <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get Stress-free Sleep, <em class="text-seagreen">FREE</em></h3>
+                <div class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep Worksheet</div>
+            </div>
 
-        <p>Sign Up to receive a free copy of our Stress-Free Sleep Worksheet</p>
-
-        <div class="klaviyo-form-VnzpXZ"></div>
-
-
+        </div>
+        <div id="exitForm">
+            <div class="klaviyo-form-VnzpXZ"></div>
+        </div>
     </div>
-
+</div>
 
     {{ partial "footer.html" . }}
 
     {{ partial "scripts.html" . }}
 
     <script type="text/javascript" src="//www.klaviyo.com/media/js/public/klaviyo_subscribe.js"></script>
-<script type="text/javascript">
- KlaviyoSubscribe.attachToForms('#email_signup', {
- hide_form_on_success: true,
- success_url: "https://www.example.com/thank-you"
- });
-</script>
+    <script type="text/javascript">
+        KlaviyoSubscribe.attachToForms('#email_signup', {
+            hide_form_on_success: true,
+            success_url: "https://www.example.com/thank-you"
+        });
+    </script>
 
     <script>
         if (window.netlifyIdentity) {
