@@ -6,7 +6,7 @@ position: align-items-center
 size: col-12 col-md-6
 points:
     - <img src="/img/icon_1.png"/> <span>High Efficacy and Safety Standards</span>
-    - <img src="/img/icon_2.png"/> <span>Extensive Research + 3rd Party Testing</span>
+    - <img src="/img/icon_2.png"/> <span>Extensive Research</span>
     - <img src="/img/icon_3.png"/> <span>Supportive Physiologic doses with Highest Bioavailability</span>
     - <img src="/img/icon_4.png"/> <span>Works with your body, not against it</span>
     - <img src="/img/icon_5.png"/> <span>No concern of a host of side effects traditionally associated with other products and medications</span>
