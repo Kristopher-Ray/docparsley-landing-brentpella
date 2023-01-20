@@ -6,6 +6,8 @@ id: sleep-story
 #size: col-12 col-md-6
 image: /img/img_sleep_story.png
 fluid: true
+section_categories:
+    - Brent
 ---
 
 <div id="sleep-story-top">

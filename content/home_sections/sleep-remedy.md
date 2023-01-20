@@ -5,6 +5,9 @@ id: sleep-remedy
 position: justify-content-end align-items-center
 size: col-12 col-sm-6 col-md-6 col-lg-5
 column_image: /img/product_display.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### Sleep Remedy Will Help You <span class="text-seagreen font-italic">Take Charge Of Your Day!</span> { .sectionTitle .text-black}

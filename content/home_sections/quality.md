@@ -11,6 +11,9 @@ points:
     - <img src="/img/icon_4.png"/> <span>Works with your body, not against it</span>
     - <img src="/img/icon_5.png"/> <span>No concern of a host of side effects traditionally associated with other products and medications</span>
 #image: /img/bg_sleep_formula.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### <span class="font-italic text-seagreen">Quality</span> Over Quantity {.sectionTitle .text-black .mb-2}

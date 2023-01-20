@@ -5,6 +5,9 @@ id:  sleep-store
 position: justify-content-start align-content-center text-center
 size: col-12
 #image: /img/bg_guarantee.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### Better Performance <span class="text-seagreen">Starts Here.</span> {.sectionTitle .text-center .text-black}

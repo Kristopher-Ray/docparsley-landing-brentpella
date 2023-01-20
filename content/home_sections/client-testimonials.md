@@ -6,6 +6,9 @@ position: justify-content-start align-content-center text-center
 size: col-12
 fluid: true
 #image: /img/bg_guarantee.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### But Don’t Just Take it From Brent! {.sectionTitle .text-center .text-black}

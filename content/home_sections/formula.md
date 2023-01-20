@@ -5,6 +5,9 @@ id: sleep-formula
 #position: justify-content-end align-content-center
 size: col-12
 image: /img/bg_sleep_formula.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### The Sought After <span class="text-saffron">Sleep Remedy Formula</span> {.sectionTitle .text-center}

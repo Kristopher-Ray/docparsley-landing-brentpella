@@ -5,6 +5,9 @@ id: hassle-free
 #position: justify-content-end align-content-center
 size: col-12
 #image: /img/img_sleep_story.png
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 <div class="row">
