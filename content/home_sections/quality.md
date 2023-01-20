@@ -19,4 +19,4 @@ The ingredients found in Sleep Remedy serve as precursors to the production of m
 
 With Sleep Remedy, can safely incorporate into your nightly routine, without risk of creating a dependency over extended use. **When it comes to supplementing, less is more!**
 
-<div><a href="https://store.docparsley.com/collections/sleep-remedy-products" target="_blank" class="button">Visit Our Sleep Remedy Store</a></div>
+<div><a href="#sleep-store" class="button">Visit Our Sleep Remedy Store</a></div>
