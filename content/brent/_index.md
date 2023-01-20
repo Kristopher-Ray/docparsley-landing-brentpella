@@ -14,4 +14,5 @@ cta_image: /img/cta_img.png
 sitemap:
   priority: 1
 id: home
+sections: brent
 ---

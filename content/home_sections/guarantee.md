@@ -5,6 +5,9 @@ id: guarantee
 position: justify-content-start align-content-center
 size: col-12 col-md-6 col-lg-5
 image: /img/bg_guarantee.jpg
+section_categories:
+    - Brent
+    - Power Athlete
 ---
 
 ### 60 Day - 110% Money Back Guarantee! {.sectionTitle .font-italic .sml .mb-3}

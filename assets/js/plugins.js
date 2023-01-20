@@ -24,22 +24,39 @@ var tns=function(){Object.keys||(Object.keys=function(t){var e=[];for(var n in t
 
 
 // Exit intent
-function addEvent(obj, evt, fn) {
-    if (obj.addEventListener) {
-        obj.addEventListener(evt, fn, false);
-    } else if (obj.attachEvent) {
-        obj.attachEvent("on" + evt, fn);
+
+// Exit Intent
+$(document).ready(function(){ 
+	// check for cookie
+  if ($.cookie('exit-intent-closed')) {  
+			// destroy exit intent
+      setTimeout(function(){
+        $('#exit_lightbox').remove();
+        //console.log('Removed because cookie');
+      }, 2500);	
+   }
+  // if no cookie, check for user leaving 
+  else document.addEventListener("mouseout", function(e){
+    if  (e.clientY < 0)
+    {
+         //$('#exit_lightbox').css("display", "flex");
+         $('#exit_lightbox').fadeIn();
+         //console.log('User leaving, show popup');
     }
-}
-
-addEvent(document, 'mouseout', function(evt) {
-    if (evt.toElement == null && evt.relatedTarget == null) {
-        $('#exit_lightbox').slideDown();
-    };
-});
-
-$('a.close').click(function() {
-    $('#exit_lightbox').slideUp();
+    
+  }, false);
+  // handle closing of exit intent
+  $('a.close').click(function () {
+    	// cookie if exit intent closed
+    	var date = new Date();
+    	date.setTime(date.getTime() + 48 * 60 * 60 * 1000); 
+ 	  	$.cookie('exit-intent-closed', true, { expires: date });
+      // destroy exit intent
+      setTimeout(function(){
+        $('#exit_lightbox').remove();
+        //console.log('Removed because click');
+      }, 50);
+   });   
 });
 
 // Start Inline JS
