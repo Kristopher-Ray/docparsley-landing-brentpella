@@ -15,4 +15,4 @@ section_categories:
 
 Getting great sleep helps you regulate your neurochemistry, purge toxins, control hunger, and regulate stress hormones. When you optimize your sleep, you optimize your life.
 
-<a href="https://store.docparsley.com/collections/sleep-remedy-products" target="_blank" class="button btn-seagreen">Visit Our Sleep Remedy Store</a>
+<a href="#sleep-store" class="button btn-seagreen">Visit Our Sleep Remedy Store</a>

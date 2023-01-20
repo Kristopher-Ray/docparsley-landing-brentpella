@@ -15,7 +15,7 @@ section_categories:
 <div class="row">
 <div class="col col-12 col-md-6">
 
-### Why Brent cares about your sleep: {.sleepStoryTitle .font-italic}
+### Why John cares about your sleep: {.sleepStoryTitle .font-italic}
 
 <div class="brentQuote">“Empower your performance with Doc Parsley's Sleep Remedy.”</a></div>
 <div class="quoteName">- John Welbourn</div>
@@ -37,7 +37,7 @@ section_categories:
 <li>Improved reaction time and reflexes</li>
 <li>Increased muscle mass</li>
 </ul>
-<a href="https://store.docparsley.com/products/sleep-remedy-capsules" target="_blank" class="button btn-saffron">Try Sleep Remedy Now</a>
+<a href="#sleep-store" class="button btn-saffron">Try Sleep Remedy Now</a>
 </div>
 </div>
 </div>
