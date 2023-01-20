@@ -7,10 +7,10 @@ size: col-12
 fluid: true
 #image: /img/bg_guarantee.jpg
 section_categories:
-    - Brent
+    - Power Athlete
 ---
 
-### But Don’t Just Take it From Brent! {.sectionTitle .text-center .text-black}
+### But Don’t Just Take it From John! {.sectionTitle .text-center .text-black}
 
 #### Hear what other customers have to say... {.sectionTagline .font-italic}
 
