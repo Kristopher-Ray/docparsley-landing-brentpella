@@ -17,7 +17,7 @@ section_categories:
 
 ### Why Brent cares about your sleep {.sleepStoryTitle .font-italic}
 
-<div class="brentQuote">“Look, I'm not a "genius" or "health expert" or "extremely attractive man who knows how to make the freshest handmade pasta bolognese ever created" - I'm just a dude who loves waking up each morning, ready to KNEAD my day like a fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else works? <a href="https://store.docparsley.com/products/sleep-remedy-capsules" target="_blank" class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a></div>
+<div class="brentQuote">“Look, I'm not a "genius" or "health expert" or "extremely attractive man who knows how to make the freshest handmade pasta bolognese ever created" - I'm just a dude who loves waking up each morning, ready to KNEAD my day like a fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else works? <a href="#sleep-store" target="_blank" class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a></div>
 <div class="quoteName">- Brent Pella</div>
 </div>
 </div>
