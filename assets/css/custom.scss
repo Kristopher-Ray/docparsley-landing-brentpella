@@ -628,6 +628,10 @@ header {
     line-height: 1em;
     color: #ffffff;
     padding-bottom: 0;
+
+    b {
+      color: $saffron;
+    }
     .person {
       font-style: italic;
       font-weight: 700;
