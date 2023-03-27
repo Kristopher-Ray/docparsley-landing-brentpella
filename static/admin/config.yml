@@ -12,9 +12,9 @@ public_folder: "/img"
 collections:
   - name: "promotions"
     label: "Landing Pages"
-    folder: "content/news"
-    media_folder: '/static/img/news'
-    public_folder: '/img/news'
+    folder: "content/promotions"
+    media_folder: '/static/img/'
+    public_folder: '/img/'
     filter: {field: "visible", value: true}
     create: true
     slug: "{{slug}}"
@@ -50,8 +50,38 @@ collections:
       - {label: "Logo Name / Title / Alt Tag", name: "title", widget: "string"}
       - {label: "Logo Image", name: "image", widget: "image" }
       - {label: "Order", name: "weight", widget: "number" }
+  - name: "products"
+    label: "Featured Products"
+    folder: "content/products"
+    media_folder: '/static/img/products'
+    public_folder: '/img/logos'
+    filter: {field: "visible", value: true}
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Visible in CMS", name: "visible", widget: hidden, default: true}
+      - {label: "Product Name", name: "title", widget: "string"}
+      - {label: "Original Price", name: "price", widget: "string" }
+      - {label: "Sale Price", name: "sale_price", widget: "string" }
+      - {label: "Link", name: "outbound", widget: "string" }
+      - {label: "Image", name: "image", widget: "image" }
+      - {label: "Order", name: "weight", widget: "number" }
+  - name: "testimonials"
+    label: "Testimonials"
+    folder: "content/testimonials"
+    media_folder: '/static/img'
+    public_folder: '/img'
+    filter: {field: "visible", value: true}
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Visible in CMS", name: "visible", widget: hidden, default: true}
+      - {label: "Attribution Name", name: "title", widget: "string"}
+      - {label: "stars", name: "stars", widget: "number", min: 1, max: 5, default: 5 }
+      - {label: "Order", name: "weight", widget: "number" }
+      - {label: "Testimonial", name: "body", widget: "markdown"}
   - name: "home_sections"
-    label: "Home Sections"
+    label: "Repeating Sections"
     folder: "content/home_sections"
     create: true
     slug: "{{slug}}"
