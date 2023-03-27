@@ -28,13 +28,12 @@ collections:
       - {label: "Banner Tagline", name: "banner_tagline", widget: "string"}
       - {label: "Banner Body", name: "banner_text", widget: "text"}
       - {label: "Banner Image", name: "banner_image", widget: "image" }
+      - {label: "Banner Image Position Override", name: "bannerimgposition", widget: "string", required: false}
       - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
-      - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
+      - {label: "Banner Button Right", name: "cta_button_right", widget: "text"}
       - {label: "Product Image", name: "cta_image", widget: "image" }
-      - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
       - {label: "Quote", name: "quote", widget: "text"}
       - {label: "Section Image", name: "sectionimage", widget: "image" }
-      - {label: "Banner Image Position Override", name: "bannerimgposition", widget: "string"}
       - {label: "What I know Section", name: "body", widget: "markdown", required: false}
       - {label: "Slug (eg. landing trailing URL)", name: "slug", widget: "string"}
       - {label: "klaviyo class", name: "klaviyo", widget: "string"}
