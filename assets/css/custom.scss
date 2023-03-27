@@ -811,6 +811,7 @@ form {
 #clientLogos {
   padding: 2.25rem 0 2.05rem;
   background: #fff;
+  position:relative;
   .container-fluid {
     padding: 0;
   }
@@ -823,6 +824,7 @@ form {
     vertical-align: top;
   }
   .logos {
+    position:relative;
     padding-top: 0;
     .tns-item {
       height: 130px;
@@ -1079,9 +1081,8 @@ ul.quality-points {
       margin-left: auto;
       @media (max-width: 767px) {
         max-width: 100%;
-        h2 {
-          max-width: 340px;
-        }
+        text-align: center;
+
       }
     }
     #bannerHead {
@@ -1100,12 +1101,12 @@ ul.quality-points {
     .banner-image {
       position: absolute;
       left: 0;
-      bottom: 90px;
-      width: 55.5%;
-      height: 84.5%;
+      bottom: 0;
+      width: 52%;
+      height: 100%;
       z-index: 9;
       @media (max-width: 1199px) {
-        width: 50%;
+        width: 42%;
       }
       @media (max-width: 767px) {
         width: 100%;
@@ -1130,7 +1131,7 @@ ul.quality-points {
       }
       img {
         object-fit: cover;
-        object-position: top right;
+        object-position: top center;
         width: 100%;
         height: 100%;
       }
@@ -1268,6 +1269,30 @@ ul.quality-points {
       position: relative;
       color: #fff;
       background: #00132d;
+
+      ul {
+        margin-left: 0;
+        margin-bottom: 0.55rem;
+        list-style: none;
+        li {
+          font-weight: 700;
+          padding-left: 2.5rem;
+          position: relative;
+          padding-bottom: 0.8em;
+          padding-top: 0.18em;
+          font-size: 1rem;
+          &:before {
+            content: "\f00c";
+            font-family: "Font Awesome 6 Free";
+            position: absolute;
+            left: 0;
+            line-height: 1em;
+            font-size: 1.368rem;
+            top: 0.2em;
+          }
+        }
+      }
+
     }
   }
 

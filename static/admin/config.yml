@@ -1,25 +1,43 @@
-site_url: https://kristopherray.com
-display_url: https://kristopherray.com
-logo_url: https://kristopherray.com/img/login-logo.svg
+site_url: https://landing.docparsley.com
+display_url: https://landing.docparsley.com
+logo_url: https://landing.docparsley.com/img/login-logo.png
 show_preview_links: false
 backend:
   name: git-gateway
-  repo: kristopherray/
+  repo: Kristopher-Ray/docparsley-landing-brentpella
   branch: master
 # This line should *not* be indented
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 public_folder: "/img"
 collections:
-  - name: "home"
-    label: "Home"
-    files:
-      - label: "Home Content and Settings"
-        name: "home"
-        file: "content/_index.md"
-        fields:
-          - {label: "Meta Title / Banner Title", name: "title", widget: "string"}
-          - {label: "Description and Banner Text", name: "description", widget: "text", required: false}
-          - {label: "Lightbox Content", name: "body", widget: "markdown", required: false}
+  - name: "promotions"
+    label: "Landing Pages"
+    folder: "content/news"
+    media_folder: '/static/img/news'
+    public_folder: '/img/news'
+    filter: {field: "visible", value: true}
+    create: true
+    slug: "{{slug}}"
+    fields:
+      - {label: "Visible in CMS", name: "visible", widget: hidden, default: true}
+      - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
+      - {label: "Attribution", name: "title", widget: "string"}
+      - {label: "Meta (Page) Title", name: "metaTitle", widget: "string"}
+      - {label: "Meta Description", name: "description", widget: "string", required: false}
+      - {label: "Banner Title", name: "banner_title", widget: "string"}
+      - {label: "Banner Tagline", name: "banner_tagline", widget: "string"}
+      - {label: "Banner Body", name: "banner_text", widget: "text"}
+      - {label: "Banner Image", name: "banner_image", widget: "image" }
+      - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
+      - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
+      - {label: "Product Image", name: "cta_image", widget: "image" }
+      - {label: "Banner Button Left", name: "cta_button_left", widget: "text"}
+      - {label: "Quote", name: "quote", widget: "text"}
+      - {label: "Section Image", name: "sectionimage", widget: "image" }
+      - {label: "Banner Image Position Override", name: "bannerimgposition", widget: "string"}
+      - {label: "What I know Section", name: "body", widget: "markdown", required: false}
+      - {label: "Slug (eg. landing trailing URL)", name: "slug", widget: "string"}
+      - {label: "klaviyo class", name: "klaviyo", widget: "string"}
   - name: "logos"
     label: "Logo Carousel"
     folder: "content/logos"
@@ -43,23 +61,6 @@ collections:
       - {label: "Section Content", name: "body", widget: "markdown"}
       - {label: "Background Image", name: "image", widget: "image" }
       - {label: "Order", name: "weight", widget: "number" }
-  - name: "news"
-    label: "News"
-    folder: "content/news"
-    media_folder: '/static/img/news'
-    public_folder: '/img/news'
-    filter: {field: "visible", value: true}
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - {label: "Visible in CMS", name: "visible", widget: hidden, default: true}
-      - {label: "Draft", name: "draft", widget: "boolean", default: true}
-      - {label: "Title", name: "title", widget: "string"}
-      - {label: "Slug", name: "slug", widget: "string"}
-      - {label: "Date", name: "date", widget: "date"}
-      - {label: "Description", name: "description", widget: "string", required: false}
-      - {label: "Body", name: "body", widget: "markdown", required: false}
-      - {label: "Featured Image", name: "image", widget: "image" }
   - label: "Configuration"
     name: "configuration"
     files:

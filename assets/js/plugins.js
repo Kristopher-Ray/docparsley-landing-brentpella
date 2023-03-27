@@ -113,23 +113,44 @@ $(document).ready(function(){
 });
 
 
- // Logos Slider
- var slider = tns({
-    container: "#carousel",
-    gutter: 0,
-    items: 5,
-    loop: true,
-    autoplay: true,
-    autoplayHoverPause: true,
-    autoplayButtonOutput: false,
-    controls: false,
-    nav: false,
-    speed: 2000,
-    autoplayTimeout: 0,
-    preventActionWhenRunning: true,
-    mouseDrag: true,
-    autoWidth: true,
-  });
+ // Tiny Slider
+// Logos Slider
+var slider = tns({
+  container: "#carousel",
+  items: 6,
+  gutter: 0,
+  slideBy: 1,
+  controlsPosition: "bottom",
+  navPosition: "bottom",
+  mouseDrag: true,
+  autoplay: true,
+  autoplayButtonOutput: false,
+  preventActionWhenRunning: true,
+  autoplayTimeout: 0,
+  speed: 6000,
+  controls: false,
+  nav: false,
+  loop: true,
+  rewind: false,
+  center: true,
+  autoWidth: true,
+  responsive: {
+    0: {
+      items: 2,
+      nav: false
+    },
+    768: {
+      items: 4,
+      nav: false
+    },
+    1440: {
+      items: 6
+    },
+    1800: {
+      items: 6
+    }
+  },
+});
 
    // Testimonials Slider
  var slider = tns({
@@ -137,6 +158,8 @@ $(document).ready(function(){
     gutter: 35,
     items: 3,
     loop: true,
+    rewind: false,
+    center: true,
     autoplay: true,
     autoplayHoverPause: true,
     autoplayButtonOutput: false,

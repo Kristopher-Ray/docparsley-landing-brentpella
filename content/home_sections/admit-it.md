@@ -12,6 +12,6 @@ section_categories:
 
 ### Let’s admit it, <span class="text-seagreen font-italic">we all want to be better…</span> { .sectionTitle .text-black}
 
-<div class="brentQuote  pt-2">“Nothing on the planet will destroy your drive and performance more than poor sleep, and nothing will improve your drive and performance more than great sleep!”</div>
+*“Nothing on the planet will destroy your drive and performance more than poor sleep, and nothing will improve your drive and performance more than great sleep!”*
 
 <div class="quoteName">- Doc Parsley, Former Navy SEAL</div>
