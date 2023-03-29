@@ -12,7 +12,7 @@ banner_text: <b>“I used to wake up and get angry right away.</b> Then I realiz
   considered that the root of our frustrations might very well be in part due to
   a lack of good sleep?”
 banner_image: /img/banner_home.png
-bannerimgposition: top right
+bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ BRENT’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
