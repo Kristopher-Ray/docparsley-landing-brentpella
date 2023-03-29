@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Dr. Sean Pastuch
 attribution: Dr. Sean Pastuch
 metaTitle: Join Dr. Sean Pastuch, Experience Your Best Nights Sleeps
