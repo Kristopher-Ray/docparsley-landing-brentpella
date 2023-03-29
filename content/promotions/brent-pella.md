@@ -15,7 +15,8 @@ banner_text: <b>“I've struggled with middle of the night wakeups as a
   better I sleep, the better I sleep the healthier I am."
 banner_image: /img/n-avnqc0.jpg
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR SEAN’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR.
+  SEAN’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
