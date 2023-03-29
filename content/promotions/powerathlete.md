@@ -17,6 +17,7 @@ body_class: page-powerathlete
 visible: true
 slug: powerathlete
 klaviyo: klaviyo-form-VnzpXZ
+exitCTA: '<h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep Worksheet</div>'
 ---
 
 ### What I know:
