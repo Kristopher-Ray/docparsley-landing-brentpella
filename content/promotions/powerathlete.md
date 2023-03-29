@@ -1,5 +1,6 @@
 ---
 title: John Welbourn
+attribution: John Welbourn
 metaTitle: Join John Welbourn,Experience Your Best Nights Sleeps
 metaDescription: Join John Welbourn,Experience Your Best Nights Sleep
 description: >-

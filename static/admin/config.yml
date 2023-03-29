@@ -21,7 +21,8 @@ collections:
     fields:
       - {label: "Visible in CMS", name: "visible", widget: hidden, default: true}
       - {label: "Draft", name: "draft", widget: "boolean", default: true, required: false}
-      - {label: "Attribution", name: "title", widget: "string"}
+      - {label: "Hidden Reference Title (Backend)", name: "title", widget: "string"}
+      - {label: "Name for Attribution", name: "attribution", widget: "string"}
       - {label: "Meta (Page) Title", name: "metaTitle", widget: "string"}
       - {label: "Meta Description", name: "description", widget: "string", required: false}
       - {label: "Banner Title", name: "banner_title", widget: "string"}
