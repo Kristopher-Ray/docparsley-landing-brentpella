@@ -83,7 +83,7 @@ collections:
       - {label: "Order", name: "weight", widget: "number" }
       - {label: "Testimonial", name: "body", widget: "markdown"}
   - name: "home_sections"
-    label: "Repeating Sections"
+    label: "Repeating Sections*"
     folder: "content/home_sections"
     create: true
     slug: "{{slug}}"
