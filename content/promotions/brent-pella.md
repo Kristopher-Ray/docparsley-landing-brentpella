@@ -23,7 +23,7 @@ cta_image: /img/cta_img.png
 quote: “More often than not, 8 hours of sleep is what it takes. Quality sleep is
   the foundation to building your life. Whatever your goals may be; being more
   productive, eating healthier, being more active, getting in shape...it starts
-  with quality sleep.'<a href="#sleep-store"
+  with quality sleep. You know what helps with that? <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
 sectionimage: /img/n-avnqc0.jpg
 slug: activeliferx
