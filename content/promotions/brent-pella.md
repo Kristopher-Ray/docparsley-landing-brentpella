@@ -13,7 +13,7 @@ banner_text: <b>“I've struggled with middle of the night wakeups as a
   I wake up refreshed most days, and often get up before my alarm goes off.
   Having Both a bedtime and morning routine is important. The healthier I am the
   better I sleep, the better I sleep the healthier I am."
-banner_image: /img/lvq1jjyw.jpg
+banner_image: /img/n-avnqc0.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR SEAN’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
@@ -25,7 +25,7 @@ quote: “More often than not, 8 hours of sleep is what it takes. Quality sleep 
   productive, eating healthier, being more active, getting in shape...it starts
   with quality sleep. You know what helps with that? <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
-sectionimage: /img/n-avnqc0.jpg
+sectionimage: /img/lvq1jjyw.jpg
 slug: activeliferx
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
