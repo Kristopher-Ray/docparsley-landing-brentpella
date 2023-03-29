@@ -20,12 +20,11 @@ cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
 cta_image: /img/cta_img.png
-quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive man
-  who knows how to make the freshest handmade pasta bolognese ever created" -
-  I'm just a dude who loves waking up each morning, ready to KNEAD my day like a
-  fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else
-  works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
-  Sleep Remedy.”</a>
+quote: “More often than not, 8 hours of sleep is what it takes. Quality sleep is
+  the foundation to building your life. Whatever your goals may be; being more
+  productive, eating healthier, being more active, getting in shape...it starts
+  with quality sleep.'<a href="#sleep-store"
+  class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
 sectionimage: /img/n-avnqc0.jpg
 slug: activeliferx
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
@@ -34,10 +33,9 @@ exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Worksheet</div>
 klaviyo: klaviyo-form-VnzpXZ
 ---
-
 ### What I know:
 
-- As a lifetime athlete, I know the significance of good sleep.
-- I truly believe with 8 hours (or more) of sleep, we could solve 99% of the world's problems.
-- The PERFECT morning routine begins with the BEST nighttime routine.
-- I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
+* As a lifetime athlete, I know the significance of good sleep.
+* I truly believe with 8 hours (or more) of sleep is what it takes, as a general guide.
+* The PERFECT morning routine begins with the BEST nighttime routine.
+* I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
