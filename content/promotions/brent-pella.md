@@ -1,7 +1,7 @@
 ---
 visible: true
 draft: false
-title: Brent Pella
+title: Brent Pella - 2
 metaTitle: Join Brent Pella, Experience Your Best Nights Sleeps
 description: No Jokes, Just Brent’s Experience with Doc Parsley’s Sleep Remedy
 banner_title: <i>Join Brent Pella,</i> Experience Your <b>Best Nights Sleep</b>
