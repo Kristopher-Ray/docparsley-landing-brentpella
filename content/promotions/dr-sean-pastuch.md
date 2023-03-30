@@ -13,7 +13,7 @@ banner_text: <b>“I've struggled with middle of the night wakeups as a
   I wake up refreshed most days, and often get up before my alarm goes off.
   Having Both a bedtime and morning routine is important. The healthier I am the
   better I sleep, the better I sleep the healthier I am."
-banner_image: /img/screen-shot-2023-03-30-at-9.54.54-am.png
+banner_image: /img/hya6-zfq.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR.
   SEAN’S SLEEP STORY</a>
