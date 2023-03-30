@@ -1,21 +1,22 @@
 ---
 visible: true
 draft: false
-title: Rachel Scheer
-attribution: Rachel Scheer
-metaTitle: Join Rachel Scheer, Experience Your Best Nights Sleeps
-description: Rachel’s Experience with Doc Parsley’s Sleep Remedy
-banner_title: <i>Join Rachel,</i> Experience Your <b>Best Nights Sleep</b>
-banner_tagline: ' Rachel’s Experience with <a href="#sleep-store"
-  class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>'
+title: Dr. Sean Pastuch
+attribution: Dr. Sean Pastuch
+metaTitle: Join Dr. Sean Pastuch, Experience Your Best Nights Sleeps
+description: Dr. Sean’s Experience with Doc Parsley’s Sleep Remedy
+banner_title: <i>Join Dr. Sean,</i> Experience Your <b>Best Nights Sleep</b>
+banner_tagline: Dr. Sean’s Experience with <a href="#sleep-store"
+  class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
 banner_text: <b>“I've struggled with middle of the night wakeups as a
   consequence of having 3 kids.</b> I used to check the clock, but not anymore.
   I wake up refreshed most days, and often get up before my alarm goes off.
   Having Both a bedtime and morning routine is important. The healthier I am the
   better I sleep, the better I sleep the healthier I am."
-banner_image: /img/n-avnqc0.jpg
+banner_image: /img/screen-shot-2023-03-30-at-9.54.54-am.png
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ RACHEL’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR.
+  SEAN’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
