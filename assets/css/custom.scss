@@ -1133,6 +1133,9 @@ ul.quality-points {
           );
         }
       }
+      @media(min-width:1400px){
+        width:50%;
+      }
       img {
         object-fit: cover;
         object-position: top right;
