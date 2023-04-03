@@ -22,7 +22,7 @@ cta_button_right: <a href="#sleep-store" class="button btn-seagreen
 cta_image: /img/cta_img.png
 quote: “Finding a more natural sleep alternative and taking a root cause
   approach was really key for my own health and healing to allow me to continue
-  to chase my passions and dreams." <a href="#sleep-store"
+  to chase my passions and dreams. That's why I chose <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
 sectionimage: /img/rachel-scheer-headshot-2.jpg
 slug: rachelscheer
