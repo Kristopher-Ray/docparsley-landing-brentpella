@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Rachel Scheer
 attribution: Rachel Scheer
 metaTitle: Join Rachel Scheer, Experience Your Best Nights Sleeps
