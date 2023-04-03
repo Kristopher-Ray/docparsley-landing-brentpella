@@ -1,32 +1,30 @@
 ---
 visible: true
-draft: false
+draft: true
 title: Rachel Scheer
 attribution: Rachel Scheer
-metaTitle: Join Rachel Cheer, Experience Your Best Nights Sleeps
+metaTitle: Join Rachel Scheer, Experience Your Best Nights Sleeps
 description: Rachel’s Experience with Doc Parsley’s Sleep Remedy
 banner_title: <i>Join Rachel,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: ' Rachel’s Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>'
-banner_text: <b>“I've struggled with middle of the night wakeups as a
-  consequence of having 3 kids.</b> I used to check the clock, but not anymore.
-  I wake up refreshed most days, and often get up before my alarm goes off.
-  Having Both a bedtime and morning routine is important. The healthier I am the
-  better I sleep, the better I sleep the healthier I am."
-banner_image: /img/screen-shot-2023-03-30-at-9.54.54-am.png
+banner_text: <b>“As a high performer, entrepreneur, and fitness enthusiast I
+  have struggled with sleep at various periods of my life, and I saw the impact
+  that it made on my physical and mental health. When you’re not sleeping, well,
+  this will impact your hormones, neurotransmitter, production, cortisol levels,
+  and so much more."
+banner_image: /img/rachel-scheer-headshot.jpg
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DR.
-  RACHEL’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ RACHEL’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
 cta_image: /img/cta_img.png
-quote: “More often than not, 8 hours of sleep is what it takes. Quality sleep is
-  the foundation to building your life. Whatever your goals may be; being more
-  productive, eating healthier, being more active, getting in shape...it starts
-  with quality sleep. You know what helps with that? <a href="#sleep-store"
+quote: “Finding a more natural sleep alternative and taking a root cause
+  approach was really key for my own health and healing to allow me to continue
+  to chase my passions and dreams." <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
-sectionimage: /img/lvq1jjyw.jpg
+sectionimage: /img/rachel-scheer-headshot-2.jpg
 slug: rachelscheer
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
