@@ -16,7 +16,7 @@ banner_text: <b>“Apart from breathing clean air and drinking clean water, ther
   sleeping well. Sleep Remedy is the answer. It's truly clean sleep with nothing
   scary for your body to wake up to!”
 banner_image: /img/sthelenarunga2018sunday-2743.jpg
-bannerimgposition: ""
+bannerimgposition: center center
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOE’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
