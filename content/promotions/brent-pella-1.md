@@ -1,12 +1,12 @@
 ---
 visible: true
 draft: false
-title: Joseph Anew
-attribution: Joseph Anew
-metaTitle: Join Joseph Anew, Experience Your Best Nights Sleeps
-description: Joseph's Experience with Doc Parsley’s Sleep Remedy
-banner_title: <i>Join Joseph Anew,</i> Experience Your <b>Best Nights Sleep</b>
-banner_tagline: Joseph’s Experience with <a href="#sleep-store"
+title: Joe Anew
+attribution: Joe Anew
+metaTitle: Join Joe Anew, Experience Your Best Nights Sleeps
+description: Joe's Experience with Doc Parsley’s Sleep Remedy
+banner_title: <i>Join Joe Anew,</i> Experience Your <b>Best Nights Sleep</b>
+banner_tagline: Joe’s Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
 banner_text: <b>“Apart from breathing clean air and drinking clean water, there
   is nothing more important than "clean sleep"! Our sleep is more important than
@@ -17,7 +17,7 @@ banner_text: <b>“Apart from breathing clean air and drinking clean water, ther
   scary for your body to wake up to!”
 banner_image: /img/sthelenarunga2018sunday-2743.jpg
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOSEPH’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOE’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
