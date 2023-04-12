@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Doc Parsley's Sleep Remedy
 attribution: Dr. Kirk Parsley
 metaTitle: Join Doc Parsley, Experience Your Best Nights Sleeps
