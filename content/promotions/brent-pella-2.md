@@ -1,18 +1,14 @@
 ---
 visible: true
-draft: false
-title: Brent Pella
-attribution: Brent Pella
-metaTitle: Join Brent Pella, Experience Your Best Nights Sleeps
-description: No Jokes, Just Brent’s Experience with Doc Parsley’s Sleep Remedy
-banner_title: <i>Join Brent Pella,</i> Experience Your <b>Best Nights Sleep</b>
-banner_tagline: No Jokes, Just Brent’s Experience with <a href="#sleep-store"
-  class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
-banner_text: <b>“I used to wake up and get angry right away.</b> Then I realized
-  that I was waking up tired, from poor sleep. So I ask you this - have you ever
-  considered that instead of being angry...you could be, happy? Have you ever
-  considered that the root of our frustrations might very well be in part due to
-  a lack of good sleep?”
+draft: true
+title: Doc Parsley's Sleep Remedy
+attribution: Dr. Kirk Parsley
+metaTitle: Join Doc Parsley, Experience Your Best Nights Sleeps
+description: " TBD"
+banner_title: <i>Join Doc Parsley,</i> Experience Your <b>Best Nights Sleep</b>
+banner_tagline: TBD <a href="#sleep-store" class="text-decoration-underline">Doc
+  Parsley’s Sleep Remedy</a>
+banner_text: <b>TBD</b> "Sleep is the reset that makes us all human"
 banner_image: /img/banner_home.png
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ BRENT’S SLEEP STORY</a>
