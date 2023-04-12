@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Joseph Anew
 attribution: Joseph Anew
 metaTitle: Join Joseph Anew, Experience Your Best Nights Sleeps
