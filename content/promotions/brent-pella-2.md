@@ -9,9 +9,9 @@ banner_title: <i>Join Doc Parsley,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: TBD <a href="#sleep-store" class="text-decoration-underline">Doc
   Parsley’s Sleep Remedy</a>
 banner_text: <b>TBD</b> "Sleep is the reset that makes us all human"
-banner_image: /img/banner_home.png
+banner_image: /img/product_display.jpg
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ BRENT’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DOC’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
@@ -22,8 +22,8 @@ quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive m
   fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else
   works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
   Sleep Remedy.”</a>
-sectionimage: /img/img_sleep_story.png
-slug: brent
+sectionimage: /img/img_admit.png
+slug: stressfree
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep
