@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: false
+draft: true
 title: Melanie Avalon
 attribution: Melanie Avalon
 metaTitle: Join Melanie Avalon, Experience Your Best Nights Sleeps
@@ -27,7 +27,7 @@ quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive m
   works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
   Sleep Remedy.”</a>
 sectionimage: /img/atlanta_brand_photographer_09855.jpg
-slug: Melanie Avalon
+slug: Melanieavalon
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep
