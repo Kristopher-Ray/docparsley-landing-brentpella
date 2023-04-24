@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Melanie Avalon
 attribution: Melanie Avalon
 metaTitle: Join Melanie Avalon, Experience Your Best Nights Sleeps
