@@ -4,9 +4,9 @@ draft: false
 title: Melanie Avalon
 attribution: Melanie Avalon
 metaTitle: Join Melanie Avalon, Experience Your Best Nights Sleeps
-description: No Jokes, Just Melanie’s Experience with Doc Parsley’s Sleep Remedy
+description: " Melanie’s Experience with Doc Parsley’s Sleep Remedy"
 banner_title: <i>Join Melanie,</i> Experience Your <b>Best Nights Sleep</b>
-banner_tagline: No Jokes, Just Melanie's Experience with <a href="#sleep-store"
+banner_tagline: Melanie's Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
 banner_text: <b>“As the host of 'The Melanie Avalon Biohacking Podcast,' I
   prioritize sleep, so that I may thrive both personally and professionally, and
@@ -17,7 +17,7 @@ banner_text: <b>“As the host of 'The Melanie Avalon Biohacking Podcast,' I
   conventional sleep medications. If you’re looking to support a restful night’s
   sleep so you can recover and thrive, get Sleep Remedy now!”
 banner_image: /img/melanie-avalon.jpg
-bannerimgposition: ""
+bannerimgposition: center center
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ Melanie’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
