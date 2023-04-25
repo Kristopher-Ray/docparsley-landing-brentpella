@@ -1,12 +1,12 @@
 ---
 visible: true
 draft: false
-title: Brent Pella
-attribution: Brent Pella
-metaTitle: Join Brent Pella, Experience Your Best Nights Sleeps
-description: No Jokes, Just Brent’s Experience with Doc Parsley’s Sleep Remedy
-banner_title: <i>Join Brent Pella,</i> Experience Your <b>Best Nights Sleep</b>
-banner_tagline: No Jokes, Just Brent’s Experience with <a href="#sleep-store"
+title: Josh Phelps
+attribution: Healthy Team
+metaTitle: Join Josh Phelps, Experience Your Best Nights Sleeps
+description: Josh’s Experience with Doc Parsley’s Sleep Remedy
+banner_title: <i>Join Josh Phelps,</i> Experience Your <b>Best Nights Sleep</b>
+banner_tagline: Josh’s Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
 banner_text: <b>“I used to wake up and get angry right away.</b> Then I realized
   that I was waking up tired, from poor sleep. So I ask you this - have you ever
@@ -15,7 +15,7 @@ banner_text: <b>“I used to wake up and get angry right away.</b> Then I realiz
   a lack of good sleep?”
 banner_image: /img/banner_home.png
 bannerimgposition: ""
-cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ BRENT’S SLEEP STORY</a>
+cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOSH’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
@@ -27,7 +27,7 @@ quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive m
   works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
   Sleep Remedy.”</a>
 sectionimage: /img/img_sleep_story.png
-slug: brent
+slug: healthyteam
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep
