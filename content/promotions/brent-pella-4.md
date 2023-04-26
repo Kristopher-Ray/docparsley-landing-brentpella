@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Josh Phelps and David Kent
 attribution: Healthy Team
 metaTitle: Join Josh & David, Experience Your Best Nights Sleeps
