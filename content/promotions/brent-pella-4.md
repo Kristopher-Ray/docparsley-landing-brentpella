@@ -8,11 +8,9 @@ description: Josh & David's Experience with Doc Parsley’s Sleep Remedy
 banner_title: <i>Join Josh & David,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: Josh & David's Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
-banner_text: <b>“I used to wake up and get angry right away.</b> Then I realized
-  that I was waking up tired, from poor sleep. So I ask you this - have you ever
-  considered that instead of being angry...you could be, happy? Have you ever
-  considered that the root of our frustrations might very well be in part due to
-  a lack of good sleep?”
+banner_text: <b>“It seems so commonplace to just ‘power through’ after a poor
+  night’s sleep.</b> Sadly, that poor night’s sleep is usually caused by other
+  choices/habits that also need to be addressed.”
 banner_image: /img/jmanprofilepic.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOSH &
@@ -21,12 +19,12 @@ cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
 cta_image: /img/cta_img.png
-quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive man
-  who knows how to make the freshest handmade pasta bolognese ever created" -
-  I'm just a dude who loves waking up each morning, ready to KNEAD my day like a
-  fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else
-  works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
-  Sleep Remedy.”</a>
+quote: “As small business owners, parents, and health advocates, David and Josh
+  know that quality sleep is a key component to overall wellness.  To perform at
+  a high level at work, then be a good parent and husband, sleep has to be
+  factored into the equation equally with exercise and nutrition.  The
+  ingredients in Sleep Remedy can make sure we get the restful and rebuilding
+  night we need when used as part of a quality sleep hygiene regimen.”</a>
 sectionimage: /img/screen-shot-2023-04-26-at-10.59.05-am.png
 slug: healthyteam
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
@@ -35,10 +33,9 @@ exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Worksheet</div>
 klaviyo: klaviyo-form-VnzpXZ
 ---
+### What we know:
 
-### What I know:
-
-- As a lifetime athlete, I know the significance of good sleep.
-- I truly believe with 8 hours (or more) of sleep, we could solve 99% of the world's problems.
-- The PERFECT morning routine begins with the BEST nighttime routine.
-- I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
+* stress in any form impacts sleep negatively and the long-term implications of that can be severe.
+* Quality, restful, uninterrupted sleep is key to overall health.
+* The PERFECT morning routine begins with the BEST nighttime routine.
+* I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
