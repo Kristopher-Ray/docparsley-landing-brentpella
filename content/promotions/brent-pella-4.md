@@ -35,7 +35,7 @@ klaviyo: klaviyo-form-VnzpXZ
 ---
 ### What we know:
 
-* stress in any form impacts sleep negatively and the long-term implications of that can be severe.
+* Stress in any form impacts sleep negatively and the long-term implications of that can be severe.
 * Quality, restful, uninterrupted sleep is key to overall health.
 * The PERFECT morning routine begins with the BEST nighttime routine.
 * I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
