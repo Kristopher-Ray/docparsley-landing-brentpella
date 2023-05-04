@@ -1,10 +1,10 @@
 ---
 visible: true
-draft: false
+draft: true
 title: Doc Parsley's Sleep Remedy
 attribution: Dr. Kirk Parsley
 metaTitle: Join Doc Parsley, Experience Your Best Nights Sleeps
-description: ""
+description: The Ultimate Solution to Reclaim Deep, Restful Sleep and Wake Up Energized!!
 banner_title: <i>Join Doc Parsley,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: TBD <a href="#sleep-store" class="text-decoration-underline">Doc
   Parsley’s Sleep Remedy</a>
