@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Doc Parsley's Sleep Remedy
 attribution: Dr. Kirk Parsley
 metaTitle: Join Doc Parsley, Experience Your Best Nights Sleeps
@@ -22,7 +22,7 @@ quote: “SLEEP IS THE RESET THAT MAKES US ALL HUMAN." - I'm just a dude who lov
   href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
   Remedy.”</a>
 sectionimage: /img/img_admit.png
-slug: stressfree
+slug: sleep
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep
