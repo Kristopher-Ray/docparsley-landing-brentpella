@@ -8,7 +8,11 @@ description: The Ultimate Solution to Reclaim Deep, Restful Sleep and Wake Up En
 banner_title: <i>Join Doc Parsley,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: TBD <a href="#sleep-store" class="text-decoration-underline">Doc
   Parsley’s Sleep Remedy</a>
-banner_text: <b>TBD</b> "Sleep is the reset that makes us all human"
+banner_text: >
+  <b>TBD</b> "Sleep is the reset that makes us all human"Are you tired of
+  tossing and turning all night, struggling to fall asleep or stay asleep? Have
+  you spent countless nights staring at the ceiling, praying for that elusive
+  sandman to pay you a visit? You're not alone!
 banner_image: /img/3-product-display-small-box-left.png
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ DOC’S SLEEP STORY</a>
