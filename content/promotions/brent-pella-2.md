@@ -4,7 +4,7 @@ draft: false
 title: Doc Parsley's Sleep Remedy
 attribution: Dr. Kirk Parsley
 metaTitle: Join Doc Parsley, Experience Your Best Nights Sleeps
-description: " TBD"
+description: ""
 banner_title: <i>Join Doc Parsley,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: TBD <a href="#sleep-store" class="text-decoration-underline">Doc
   Parsley’s Sleep Remedy</a>
