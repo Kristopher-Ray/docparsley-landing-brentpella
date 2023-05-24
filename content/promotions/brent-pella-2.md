@@ -26,7 +26,7 @@ quote: “SLEEP IS THE RESET THAT MAKES US ALL HUMAN." - The all-natural sleep a
   Originally formulated for Navy SEALs , Sleep Remedy is NOW available to you-
   to restore healthy sleep patterns and wake up energized and ready to perform
   at your best!</a>
-sectionimage: /img/img_admit.png
+sectionimage: /img/kirk.jpg
 slug: bettersleep
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
