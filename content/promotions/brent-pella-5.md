@@ -10,7 +10,7 @@ banner_tagline: Erica’s Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
 banner_text: <b>“There's no such thing as wellness without sleeping well.</b> I
   have been a wellness entrepreneur for almost 20 years, but sometimes even
-  experts like me need some expertise”
+  experts like me need some expertise.”
 banner_image: /img/erica-huss-22.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ ERICA’S SLEEP STORY</a>
@@ -30,7 +30,7 @@ quote: “I have struggled with sleep for as long as I can remember.  If there i
   than it doesn’t, and Sleep Remedy is a big part of that.  <a
   href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
   Remedy.”</a>
-sectionimage: /img/erica-huss-22.jpg
+sectionimage: /img/erica-huss-24.jpg
 slug: ericahuss
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
