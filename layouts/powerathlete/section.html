@@ -93,6 +93,9 @@
         {{end}}
 
     </main>
+    {{if .Params.lightbox}}
+        <a id="exit_lightbox-trigger" data-fancybox="exit_lightbox" data-src="#exit_lightbox" href="javascript:;"></a>
+    {{end}}
     <div id="exit_lightbox">
         <div id="exit">
             <a href="javascript:void(0)" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
@@ -105,7 +108,6 @@
                             class="text-seagreen">FREE</em></h3>
                     <div class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep Worksheet</div>
                 </div>
-
             </div>
             <div id="exitForm">
                 <div class="klaviyo-form-VnzpXZ"></div>
