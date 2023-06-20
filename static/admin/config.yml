@@ -38,6 +38,7 @@ collections:
       - {label: "What I know Section", name: "body", widget: "markdown", required: false}
       - {label: "Slug (eg. landing trailing URL)", name: "slug", widget: "string"}
       - {label: "Exit Popup Content", name: "exitCTA", widget: "text"}
+      - {label: "Lightbox on Load?", name: "lightbox", default: false, required: false}
       - {label: "klaviyo class", name: "klaviyo", widget: "string"}
   - name: "logos"
     label: "Logo Carousel"

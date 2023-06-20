@@ -1,6 +1,7 @@
 <div id="testimonials">
+    <div class="owl-carousel">
     {{ range where (.Site.RegularPages.ByParam "weight") "Type" "testimonials" }}
-    <div>
+    <div class="item">
         <div class="testimonialBx">
             {{if .Params.image}}
             <div class="testimonialImg">
@@ -19,4 +20,4 @@
         </div>
     </div>
     {{end}}
-</div>
+</div></div>

@@ -6,8 +6,9 @@
             </div>
         </div>
         <div class="logos" id="carousel">
+            <div class="owl-carousel owl-theme">
             {{ range where (.Site.RegularPages.ByWeight) "Type" "logos" }}
-            <div>
+            <div class="item">
                 <div class="imgBx">
                     <img src="{{ .Params.image }}" alt="{{ .Title }} Logo" />
                 </div>
