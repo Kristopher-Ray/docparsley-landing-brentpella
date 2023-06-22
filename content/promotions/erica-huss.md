@@ -37,6 +37,7 @@ exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   class="exitSubHead">Sign Up to receive a free copy of our Stress-Free Sleep
   Worksheet</div>
 klaviyo: klaviyo-form-VaF9V3
+lightbox: true
 ---
 ### What I know:
 

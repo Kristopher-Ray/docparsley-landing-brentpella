@@ -235,8 +235,14 @@
     </script>
     {{if .Params.lightbox}}
     <script>
-        $(document).ready(function(){ 
+        $(document).ready(function() {
             $('#exit_lightbox').fadeIn();
+            // cookie if exit intent closed
+            var date = new Date();
+            date.setTime(date.getTime() + 48 * 60 * 60 * 1000);
+            $.cookie('exit-intent-closed', true, {
+                expires: date
+            });
         });
     </script>
     {{end}}
