@@ -97,7 +97,7 @@ $(document).ready(function(){
   if ($.cookie('exit-intent-closed')) {  
 			// destroy exit intent
       setTimeout(function(){
-        $('#exit_lightbox').remove();
+        //$('#exit_lightbox').remove();
         //console.log('Removed because cookie');
       }, 2500);	
    }
