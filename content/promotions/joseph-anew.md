@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: JOCKO
 attribution: JOCKO
 metaTitle: Join Jocko, Experience Your Best Nights Sleeps
