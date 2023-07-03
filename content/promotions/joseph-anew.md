@@ -15,7 +15,7 @@ banner_text: <b>“Apart from breathing clean air and drinking clean water, ther
   dirty, disruptive sleep aids and medications just to feel like they're
   sleeping well. Sleep Remedy is the answer. It's truly clean sleep with nothing
   scary for your body to wake up to!”
-banner_image: /img/sthelenarunga2018sunday-2743.jpg
+banner_image: /img/screen-shot-2023-07-03-at-10.39.56-am.png
 bannerimgposition: center center
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ JOSEPH’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
@@ -28,7 +28,7 @@ quote: “When it comes to health of your mind, body, heart, or soul optimal sle
   <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
   Remedy.”</a>, it switches "ON" your body's ability to sleep deeply without
   throwing "OFF" it's natural rhythms or hormone production."
-sectionimage: /img/sthelenarunga2018saturday-2364.jpg
+sectionimage: /img/jocko-and-kirk.png
 slug: JOCKO
 exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Stress-free Sleep, <em class="text-seagreen">FREE</em></h3> <div
