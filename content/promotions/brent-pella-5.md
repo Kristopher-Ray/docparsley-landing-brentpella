@@ -12,7 +12,7 @@ banner_text: <b>“I love Doc Parsley's Sleep Remedy </b> He combines outstandin
   clinical experience into a safe and effective sleep formula for anyone who
   struggles!”
 banner_image: /img/kirk-and-gabrielle-lyon.jpg
-bannerimgposition: vertical
+bannerimgposition: rotate right
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
   GABRIELLE’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
