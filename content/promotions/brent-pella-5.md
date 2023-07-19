@@ -27,10 +27,18 @@ quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive m
   Sleep Remedy.”</a>
 sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
 slug: lyon
-exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
-  Stressless Sleep, <em class="text-seagreen">FREE</em></h3> <div
-  class="exitSubHead">Sign Up to receive a free copy of our Stressless Sleep
-  Guide</div>
+exitCTA: >-
+  <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get Your
+  Stressless Sleep Guide, <em class="text-seagreen">FREE</em></h3> <div
+  class="exitSubHead">
+
+  Immediate Access
+
+  Better Sleep TONIGHT
+
+  Proven Deep Sleep Checklist
+
+  </div>
 klaviyo: klaviyo-form-VNM5VW
 ---
 ### What I know about Sleep Remedy:
