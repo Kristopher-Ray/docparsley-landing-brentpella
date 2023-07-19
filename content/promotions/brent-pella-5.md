@@ -8,11 +8,11 @@ description: Gabrielle’s Experience with Doc Parsley’s Sleep Remedy
 banner_title: <i>Join Gabrielle Lyon,</i> Experience Your <b>Best Nights Sleep</b>
 banner_tagline: Gabrielle’s Experience with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley’s Sleep Remedy</a>
-banner_text: <b>“I love Doc Parsley's Sleep Remedy </b> He combines outstanding
+banner_text: <b>“I love Doc Parsley's Sleep Remedy! </b> He combines outstanding
   clinical experience into a safe and effective sleep formula for anyone who
   struggles!”
 banner_image: /img/kirk-and-gabrielle-lyon.jpg
-bannerimgposition: rotate right
+bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
   GABRIELLE’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
