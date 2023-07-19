@@ -12,7 +12,7 @@ banner_text: <b>“I love Doc Parsley's Sleep Remedy </b> He combines outstandin
   clinical experience into a safe and effective sleep formula for anyone who
   struggles!”
 banner_image: /img/kirk-and-gabrielle-lyon.jpg
-bannerimgposition: ""
+bannerimgposition: vertical, center
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
   GABRIELLE’S SLEEP STORY</a>
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
@@ -33,10 +33,11 @@ exitCTA: <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get
   Guide</div>
 klaviyo: klaviyo-form-VnzpXZ
 ---
+### What I know about Sleep Remedy:
 
-### What I know:
-
-- As a lifetime athlete, I know the significance of good sleep.
-- I truly believe with 8 hours (or more) of sleep, we could solve 99% of the world's problems.
-- The PERFECT morning routine begins with the BEST nighttime routine.
-- I start each morning hitting the ground, instead of hitting snooze, thanks Sleep Remedy.
+* Boost Your Brain POWER!
+* Unlock PEAK Physical Performance!
+* All NATURAL Ingredients!
+* Feel REFRESHED, Every Morning!
+* NON-HABIT Forming!
+* Works WITH YOUR BODY, Not against it!
