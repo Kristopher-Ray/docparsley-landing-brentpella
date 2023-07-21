@@ -34,9 +34,14 @@ exitCTA: >-
   Stressless Sleep Guide, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">
 
-  EXCLUSIVE OFFER INSIDE, Better Sleep TONIGHT, Proven Deep Sleep Checklist
+  <ul>
+    <li>Immediate Access</li>
+  <li>EXCLUSIVE Offer Inside</li>
+  <li>Proven Deep Sleep Checklist</li>
+  </ul>
 
   </div>
+exitCTAimg: /img/stressless-sleep-guide-2023.png
 klaviyo: klaviyo-form-R4btQ9
 ---
 ### What I know about Sleep Remedy:

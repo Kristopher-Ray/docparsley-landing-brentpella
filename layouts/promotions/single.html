@@ -198,7 +198,11 @@
             <a href="javascript:void(0)" class="close"><i class="fa-solid fa-circle-xmark"></i></a>
             <div id="exitTop">
                 <div class="exitImg">
+                    {{if .Params.exitCTAimg }}
+                    <img src='{{ .Params.exitCTAimg | relURL }}' alt="Stress Free Sleep Worksheet">
+                    {{else}}
                     <img src='{{ "img/img_exit_worksheet.jpg" | relURL }}' alt="Stress Free Sleep Worksheet">
+                    {{end}}
                 </div>
                 <div class="exitCTA">
                     {{ .Params.exitCTA | safeHTML }}
@@ -206,7 +210,7 @@
 
             </div>
             <div id="exitForm">
-                <div class="{{ .Params.klaviyo }}"></div>
+                <div style="color:#fff;" class="{{ .Params.klaviyo }}"></div>
             </div>
         </div>
     </div>
