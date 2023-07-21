@@ -34,11 +34,7 @@ exitCTA: >-
   Stressless Sleep Guide, <em class="text-seagreen">FREE</em></h3> <div
   class="exitSubHead">
 
-  Immediate Access
-
-  Better Sleep TONIGHT
-
-  Proven Deep Sleep Checklist
+  EXCLUSIVE OFFER INSIDE, Better Sleep TONIGHT, Proven Deep Sleep Checklist
 
   </div>
 klaviyo: klaviyo-form-R4btQ9
