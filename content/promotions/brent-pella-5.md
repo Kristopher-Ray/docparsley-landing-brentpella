@@ -19,12 +19,14 @@ cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
 cta_image: /img/cta_img.png
-quote: “Look, I'm not a "genius" or "health expert" or "extremely attractive man
-  who knows how to make the freshest handmade pasta bolognese ever created" -
-  I'm just a dude who loves waking up each morning, ready to KNEAD my day like a
-  fresh ball of pasta dough. Weird metaphor huh? But it works. Know what else
-  works? <a href="#sleep-store" class="text-decoration-underline">Doc Parsley's
-  Sleep Remedy.”</a>
+quote: “Understanding the importance of sleep is crucial to achieving optimal
+  health! Sleep is when your body undergoes significant repairs, rejuvenates
+  itself, and prepares for the demands of the next day. Your muscles, the body's
+  metabolic currency, undergo important growth and repair processes during
+  sleep. This is why sleep is so essential, particularly for those who engage in
+  regular resistance training or other forms of physical exercise. <a
+  href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
+  Remedy.”</a>
 sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
 slug: lyon
 exitCTA: >-
