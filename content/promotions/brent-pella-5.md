@@ -25,7 +25,7 @@ quote: “Understanding the importance of sleep is crucial to achieving optimal
   metabolic currency, undergo important growth and repair processes during
   sleep. This is why sleep is so essential, particularly for those who engage in
   regular resistance training or other forms of physical exercise. witness the
-  transformative effects on your health and vitality with<a href="#sleep-store"
+  transformative effects on your health and vitality with <a href="#sleep-store"
   class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
 sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
 slug: lyon
@@ -36,9 +36,7 @@ exitCTA: >-
 
   <ul>
     <li>Immediate Access</li>
-  <li>EXCLUSIVE Offer Inside</li>
-  <li>Proven Deep Sleep Checklist</li>
-  </ul>
+  <li>EXCLUSIVE Offer Inside</li> <li>Proven Deep Sleep Checklist</li> </ul>
 
   </div>
 exitCTAimg: /img/stressless-sleep-guide-2023.png
