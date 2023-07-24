@@ -15,7 +15,7 @@ banner_text: <b>"The Stressless Sleep Guide," developed by former Navy SEAL and
   stress but also boosts overall well-being through improved sleep. It's your
   tool for mastering stress, enhancing sleep quality, and unlocking a healthier,
   happier life!
-banner_image: /img/alexia-drgabriellelyon-6_r_high-res-2-.jpg
+banner_image: /img/dr.-gabrielle-lyon-headshot-.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">GABRIELLE'S
   THOUGHTS ON SLEEP</a>
