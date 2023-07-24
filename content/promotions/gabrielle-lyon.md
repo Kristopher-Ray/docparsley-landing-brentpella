@@ -40,7 +40,7 @@ exitCTA: >-
 
   </div>
 exitCTAimg: /img/stressless-sleep-guide-2023.png
-lightbox: console.log('test');
+lightbox: <script>console.log('test');</script>
 klaviyo: klaviyo-form-R4btQ9
 ---
 ### What I know about Sleep Remedy:
