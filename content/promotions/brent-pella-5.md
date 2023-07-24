@@ -28,7 +28,7 @@ quote: “I love Doc Parsley's Sleep Remedy! He combines outstanding clinical
   Witness the transformative effects on your health and vitality with <a
   href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
   Remedy.”</a>
-sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
+sectionimage: /img/kirk-and-gabrielle-lyon.jpg
 slug: lyon
 exitCTA: >-
   <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get Your
