@@ -20,14 +20,11 @@ cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
 cta_image: /img/cta_img.png
-quote: “Understanding the importance of sleep is crucial to achieving optimal
-  health! Sleep is when your body undergoes significant repairs, rejuvenates
-  itself, and prepares for the demands of the next day. Your muscles, the body's
-  metabolic currency, undergo important growth and repair processes during
-  sleep. This is why sleep is so essential, particularly for those who engage in
-  regular resistance training or other forms of physical exercise. witness the
-  transformative effects on your health and vitality with <a href="#sleep-store"
-  class="text-decoration-underline">Doc Parsley's Sleep Remedy.”</a>
+quote: “I love Doc Parsley's Sleep Remedy! He combines outstanding clinical
+  experience into a safe and effective sleep formula for anyone who struggles!
+  Witness the transformative effects on your health and vitality with <a
+  href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
+  Remedy.”</a>
 sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
 slug: lyon
 exitCTA: >-
