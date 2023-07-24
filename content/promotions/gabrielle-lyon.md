@@ -28,7 +28,7 @@ quote: “I love Doc Parsley's Sleep Remedy! He combines outstanding clinical
   href="#sleep-store" class="text-decoration-underline">Doc Parsley's Sleep
   Remedy.”</a>
 sectionimage: /img/dr.-gabrielle-lyon-headshot-.jpg
-slug: lyon
+slug: lyon-2
 exitCTA: >-
   <h3 class="exitHead"><span class="text-seagreen">Wait!</span> Get Your
   Stressless Sleep Guide, <em class="text-seagreen">FREE</em></h3> <div
