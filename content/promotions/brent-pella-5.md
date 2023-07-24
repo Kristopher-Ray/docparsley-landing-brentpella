@@ -1,6 +1,6 @@
 ---
 visible: true
-draft: true
+draft: false
 title: Gabrielle Lyon
 attribution: Gabrielle Lyon
 metaTitle: Join Gabrielle Lyon, Experience Your Best Nights Sleeps
