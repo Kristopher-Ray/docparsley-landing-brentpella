@@ -15,12 +15,12 @@ banner_text: <b>"The Stressless Sleep Guide," developed by former Navy SEAL and
   stress but also boosts overall well-being through improved sleep. It's your
   tool for mastering stress, enhancing sleep quality, and unlocking a healthier,
   happier life!
-banner_image: /img/kirk-and-gabrielle-lyon-jpeg.tiff
+banner_image: /img/kirk-and-gabrielle-lyon.jpg
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
   GABRIELLE’S SLEEP STORY</a>
-cta_button_right: <a href="#sleep-store" class="button btn-seagreen
-  withIcon">Download Your Guide Now! <i class="fa-solid fa-arrow-right"></i></a>
+cta_button_right: <a href="#learn-more" class="button btn-seagreen
+  withIcon open-popup-link">Download Your Guide Now! <i class="fa-solid fa-arrow-right"></i></a>
 cta_image: /img/stressless-sleep-guide-2023.png
 quote: “I love Doc Parsley's Sleep Remedy! He combines outstanding clinical
   experience into a safe and effective sleep formula for anyone who struggles!

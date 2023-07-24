@@ -215,6 +215,27 @@
         </div>
     </div>
 
+    <div id="learn-more" class="mfp-hide">
+        <div id="exit">
+            <div id="exitTop">
+                <div class="exitImg">
+                    {{if .Params.exitCTAimg }}
+                    <img src='{{ .Params.exitCTAimg | relURL }}' alt="Stress Free Sleep Worksheet">
+                    {{else}}
+                    <img src='{{ "img/img_exit_worksheet.jpg" | relURL }}' alt="Stress Free Sleep Worksheet">
+                    {{end}}
+                </div>
+                <div class="exitCTA">
+                    {{ .Params.exitCTA | safeHTML }}
+                </div>
+
+            </div>
+            <div id="exitForm">
+                <div style="color:#fff;" class="{{ .Params.klaviyo }}"></div>
+            </div>
+        </div>
+    </div>
+
     {{ partial "footer.html" . }}
 
     {{ partial "scripts.html" . }}
