@@ -22,7 +22,7 @@ cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
 cta_button_right: <a href="#sleep-store" class="button btn-seagreen
   withIcon">Experience Sleep Remedy Now! <i class="fa-solid
   fa-arrow-right"></i></a>
-cta_image: /img/cta_img.png
+cta_image: /img/stressless-sleep-guide-2023.png
 quote: “I love Doc Parsley's Sleep Remedy! He combines outstanding clinical
   experience into a safe and effective sleep formula for anyone who struggles!
   Witness the transformative effects on your health and vitality with <a
