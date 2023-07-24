@@ -39,8 +39,10 @@ exitCTA: >-
   <li>EXCLUSIVE Offer Inside</li> <li>Proven Deep Sleep Checklist</li> </ul>
 
   </div>
+
+  <script>console.log('test');</script>
 exitCTAimg: /img/stressless-sleep-guide-2023.png
-lightbox: <script>console.log('test');</script>
+lightbox: ""
 klaviyo: klaviyo-form-R4btQ9
 ---
 ### What I know about Sleep Remedy:
