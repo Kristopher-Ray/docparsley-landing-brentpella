@@ -8,10 +8,13 @@ description: Gabrielle’s Experience with Doc Parsley’s Sleep Remedy
 banner_title: <i>Join Gabrielle,</i> Experience Your <b>Best Night's Sleep </b>
 banner_tagline: With <a href="#sleep-store"
   class="text-decoration-underline">Doc's Stressless Sleep Guide</a>
-banner_text: <b>RADICALLY reduce stress and TRANSFORM your sleep with Doc
-  Parsley’s simple but EFFECTIVE “Stressless Sleep Guide”. </b> More than just a
-  tool; it's your passport to a life less burdened by stress, infused with the
-  revitalizing power of deep, restful sleep!
+banner_text: <b>"The Stressless Sleep Guide,”. </b> developed by former Navy
+  SEAL and physician, Kirk Parsley, M.D., combines military resilience with
+  scientific insights to manage stress and optimize sleep. Utilizing strategic
+  list building and sleep optimization checklists, this guide not only
+  diminishes stress but also boosts overall well-being through improved sleep.
+  It's your tool for mastering stress, enhancing sleep quality, and unlocking a
+  healthier, happier life!
 banner_image: /img/kirk-and-gabrielle-lyon.png
 bannerimgposition: ""
 cta_button_left: <a href="#sleep-story" class="button btn-oxford">READ
