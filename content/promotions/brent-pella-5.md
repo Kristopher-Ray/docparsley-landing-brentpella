@@ -5,7 +5,7 @@ title: Gabrielle Lyon
 attribution: Gabrielle Lyon
 metaTitle: Join Gabrielle Lyon, Experience Your Best Nights Sleeps
 description: Gabrielle’s Experience with Doc Parsley’s Sleep Remedy
-banner_title: <i>Join Gabrielle Lyon,</i> Experience Your <b>Best Night's Sleep </b>
+banner_title: <i>Join Gabrielle,</i> Experience Your <b>Best Night's Sleep </b>
 banner_tagline: With <a href="#sleep-store"
   class="text-decoration-underline">Doc's Stressless Sleep Guide</a>
 banner_text: <b>“I love Doc Parsley's Sleep Remedy! </b> He combines outstanding
